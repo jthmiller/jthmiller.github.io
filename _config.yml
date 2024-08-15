@@ -21,7 +21,7 @@ repository               : "jthmiller/jthmiller.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "samples.png"
+  avatar           : "profile.jpg"
   name             : "Jeffrey T. Miller, Ph.D."
   pronouns         : "he/him/his"  
   bio              : "Research Assistant Professor at the University of New Hampshire in the Department of Molecular Cellular and Biomedical Sciences"
