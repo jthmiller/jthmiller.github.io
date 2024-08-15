@@ -9,19 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-University of New Hampshire - Department of Molecular, Cellular, and Biomedical Sciences 
-
-  *  Research Assistant Professor August 2023-Current
+Research Assistant Professor  
+Department of Molecular, Cellular, and Biomedical Sciences  
+University of New Hampshire  
+August 2023-Current    
 
 # EDUCATION:
 
-University of California, Davis, Ph.D., Pharmacology and Toxicology  December 2018
-
-Saint Cloud State University, MS, Cell and Molecular Biology May 2012
-
-Minnesota State University Moorhead, BA, Ecology and Evolutionary Biology  May 2009
-
-
+University of California, Davis, Ph.D., Pharmacology and Toxicology, December 2018  
+Saint Cloud State University, MS, Cell and Molecular Biology, May 2012  
+Minnesota State University Moorhead, BA, Ecology and Evolutionary Biology, May 2009  
 
 # PREVIOUS APPOINTMENTS:
 Project Scientist - University of New Hampshire, Civil and Environmental Engineering
@@ -96,65 +93,41 @@ Wisenden, B., Karst, J, **Miller, J.**, Miller, S.D. Fuselier, L. (2008) Anti-Pr
 **Miller, J.**, Martinovic, D., Bartel, S. E., Schoenfuss, H. L. (2010). ‘Quantifying Exposure & Effects of Endocrine Active Chemicals in the Environment through Parallel Field and Laboratory Studies of Bioindicators in Pimephales promelas.‘ National Meeting for Society of Environmental Toxicology and Chemistry.
 
 # TEACHING EXPERIENCE:
-*Instructor* - University of New Hampshire, Genomics and Bioinformatics(2022-2024)  
-*Instructor* - University of New Hampshire, Population Genomics(2022-2023)  
-*Guest Lecture* - University of Minnesota, Zoology(November 25th 2019)  
-*Invited Lecture* - Bowdoin College, Ocean Change Evolution (October 7th 2019)  
-*Instructor* - Data and Software Carpentry Workshops  
-  * Genomics (R/Bash), California State University, Monterey Bay(March 22-23 2018)  
-  * Python (Python/Git/Bash), Minnesota State University(October 27-28 2017)  
-  
-*Teaching Assistant* - Data Intensive Biology Summer Institute, UC Davis  
-  * Analyzing Next-Generation Sequencing Data Workshop (Summer 2017 and 2018)  
-*GK-12 Teaching Fellow* - National Science Foundation:  
-  * UC Davis Bodega Marine Laboratory (Fall 2014-Spring 2015)  
-*Graduate Teaching Assistant* - University of California, Davis  
-  * Introduction to Biology: Essentials of Life on Earth (Fall 2017-2018)  
-  * Introduction to Biology: Principles of Ecology and Evolution (Fall 2016-2017)  
-  * Environmental Toxicology: Biological Effect of Toxicants (Fall 2014)  
-*Graduate Teaching Assistant* - Louisiana State University  
-  * Introduction to Biology for Science Majors (Fall 2011-Spring 2012)  
+- *Instructor* - University of New Hampshire, Genomics and Bioinformatics(2022-2024)  
+- *Instructor* - University of New Hampshire, Population Genomics(2022-2023)  
+- *Guest Lecture* - University of Minnesota, Zoology(November 25th 2019)  
+- *Invited Lecture* - Bowdoin College, Ocean Change Evolution (October 7th 2019)  
+- *Instructor* - Data and Software Carpentry Workshops  
+  - Genomics (R/Bash), California State University, Monterey Bay(March 22-23 2018)
+  - Python (Python/Git/Bash), Minnesota State University(October 27-28 2017)  
+- *Teaching Assistant* - Data Intensive Biology Summer Institute, UC Davis  
+  - Analyzing Next-Generation Sequencing Data Workshop (Summer 2017 and 2018)  
+- *GK-12 Teaching Fellow* - National Science Foundation:  
+  - UC Davis Bodega Marine Laboratory (Fall 2014-Spring 2015)  
+- *Graduate Teaching Assistant* - University of California, Davis  
+  - Introduction to Biology: Essentials of Life on Earth (Fall 2017-2018)  
+  - Introduction to Biology: Principles of Ecology and Evolution (Fall 2016-2017)  
+  - Environmental Toxicology: Biological Effect of Toxicants (Fall 2014)  
+- *Graduate Teaching Assistant* - Louisiana State University  
+    - Introduction to Biology for Science Majors (Fall 2011-Spring 2012)  
 
-# PREVIOUS EMPLOYMENT:
+# PREVIOUS POSITIONS:
 
-*Biological Science Technician* – United States Park Service(Summer 2010)\
-*Wilderness Technician* – United States Forest Service(Summer 2008 and 2009)\
-*Outdoor Education Coordinator* - Student Conservation Assoc.(Winter 2007-Summer 2008)
+*Biological Science Technician* – United States Park Service(Summer 2010)  
+*Wilderness Technician* – United States Forest Service(Summer 2008 and 2009)  
+*Outdoor Education Coordinator* - Student Conservation Assoc.(Winter 2007-Summer 2008)  
 
 # AFFILIATE MEMBERSHIPS:
-Molecular Pathology & Genomics, UMN(Winter 2020-Current)\
-Center for Population Biology, UC Davis(Winter 2017-2019)\
-Data Science Initiative, UC Davis (Winter 2017-2019)\
-Coastal and Marine Sciences Institute, UC Davis(Winter 2016-2019)
+Molecular Pathology & Genomics, UMN (Winter 2020-Current)  
+Center for Population Biology, UC Davis(Winter 2017-2019)  
+Data Science Initiative, UC Davis (Winter 2017-2019)  
+Coastal and Marine Sciences Institute, UC Davis(Winter 2016-2019)  
 
 # COMMITTEES SERVICE AND TRAINING:
 
-Amazon Web Service Developer Training with NIH STRIDES(Summer 2020)\
-Evolutionary Applications Reviewer(2018-Current)\
-UC Davis Bodega Marine Laboratory Marine Ecology Outreach(2013-2018)\
-UC Davis Pharmacology and Toxicology Graduate Admissions Committee(Winter 2013)\
-NorCal Society for Environmental Toxicology and Chemistry Board of Directors(2014-2015)\
-Archbold Biological Station Volunteer Herpetology and Stream Ecology(Summer 2011)\ 
-
-
-
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-
+Amazon Web Service Developer Training with NIH STRIDES(Summer 2020)  
+Evolutionary Applications Reviewer(2018-Current)  
+UC Davis Bodega Marine Laboratory Marine Ecology Outreach(2013-2018)  
+UC Davis Pharmacology and Toxicology Graduate Admissions Committee(Winter 2013)  
+NorCal Society for Environmental Toxicology and Chemistry Board of Directors(2014-2015)  
+Archbold Biological Station Volunteer Herpetology and Stream Ecology(Summer 2011)  

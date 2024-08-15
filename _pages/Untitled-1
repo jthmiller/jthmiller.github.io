@@ -1,0 +1,10 @@
+### {% imagesize images/herring.png:height?width=500 %}
+
+
+![lamprey](images/lamprey.png "Lamprey"){:height="700px" width="400px"}
+
+![herring](images/herring.png "herring"){:height="700px" width="400px"}
+
+
+{% imagesize images/herring.png:height=500 %}
+{% imagesize images/herring.png:height=500 %}

@@ -6,21 +6,24 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Monitoring Aquatic Communities with Molecular Tools: Environmental DNA
+Monitoring Aquatic Communities with Environmental DNA
 ------
-1. The impact of barriers and their removal on the Great Bay Watershed. In collaboration with NH Fish & Game, we are sampling the Mill Pond dam on the Oyster River and the Pickpocket dam on the Squamscott / Exeter River. 
 
-Questions include: 
+In collaboration with NH Fish & Game, we are investigating the impact of dams and their removal on two rivers in the Great Bay Watershed. We are sampling around the Oyster River / Mill Pond dam (slated to be removed in the summer of 2025) and the Pickpocket dam (under consideration of removal) on the Squamscott / Exeter River. We are going to characterize the fish communities through the summer of 2024 herring run and the pre/post Mill Pond dam removal.   
 
-2. Monitoring dyanmic and different estuaries 
 
-3. Tracking the movement of cod and the fish community. 
+<p align="center">
+  <img src="images/river-eDNA.png?raw=true" alt="Sampling Oyster River"/>
+</p>
 
-Turning our attention to the small: Picocyanobacteria in New Hampshire Lakes
+Other collaborations around eDNA:    
+- Monitoring very different, dynamic estuaries across the the [NERRs](https://nerrssciencecollaborative.org) system with PI [Alison Watts](https://www.estuarydna.org)
+- Tracking the movement and diet of cod with PI [Nathan Furey](https://fishmovementecolab.wixsite.com/fureyfmelab/people), Aliya Caldwell and Sidney Axtell
+
+Turning our attention to the tiny: Picocyanobacteria in NH Lakes
 ------
-Pico-sized cyanobacteria are notoriously difficult to study. Like other visible  'bloom-forming' cyanobacteria, some types of picocyanobacteria can synthesize the deadly toxins that close beaches and pose a risk to human health. However, with traditional methods, it is extremely difficult to measure which types of picocyanobacteria pose a risk and which are present in a given sample of water. We can use eDNA to sequence the genomes of picocyanobacteria in a sample, but the resources necessary for matching DNA to toxin producing types are patchy and underdeveloped. 
-
+Seasonal harmful cyanobacteria blooms (HCBs) are marked by a rapid increase in multiple species of cyanobacteria that produce biotoxins that are dangerous to human health and wildlife. Some species of the larger 'bloom-forming' classes of cyanobacteria species form visable blooms that trigger beach closures. However, due to their small size, relatively little is known about the smallest class of cyanobacteria species, picocyanobacteria (< 2 micrometers), and how much they contribute to HCBs. Pico-sized cyanobacteria are notoriously difficult to study with traditional methods. We often do not know  which types of cyanobacteria are present in a given water sample and which of those can produce hazardous cyanotoxins. However,By sequencing bacterial DNA extracted from water samples, we can start to unravel the complex relationships between toxins, cyanobacteria, and the environmental factors drive the harmful blooms. Unfortunately, the resources we need for matching DNA sequences to toxin producing picocyanobacteria are patchy and underdeveloped. 
 
 In collaboration with [Amanda McQuaid](https://extension.unh.edu/person/amanda-mcquaid)
-and the [Lay Lakes Monitoring Program](https://extension.unh.edu/natural-resources/land-conservation-water-resources/lakes-lay-monitoring-program), [Peter Countway and Robin Seith](https://www.bigelow.org/about/people/pcountway.html) at Bigelow Marine Lab, and the town of [Wolfeboro, NH](https://www.wolfeboronh.us/wolfeboro-waters-committee), we will target picocyanobacteria from New Hampshire lakes for whole-genome sequencing to assemble genomes, measure the prevalence of toxins and toxin producing genes,   
+and the [Lay Lakes Monitoring Program](https://extension.unh.edu/natural-resources/land-conservation-water-resources/lakes-lay-monitoring-program), [Peter Countway and Robin Seith](https://www.bigelow.org/about/people/pcountway.html) at Bigelow Marine Lab, and the town of [Wolfeboro, NH](https://www.wolfeboronh.us/wolfeboro-waters-committee), we will target picocyanobacteria from New Hampshire lakes for whole-genome sequencing to 1) assemble more genomes (and toxin producing genes) for pico-sized cyanobacteria, 2) measure the prevalence of toxins of pico-populations from different lake in New Hampshire.
 
