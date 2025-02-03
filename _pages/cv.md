@@ -11,7 +11,7 @@ redirect_from:
 
 Research Assistant Professor  
 Department of Molecular, Cellular, and Biomedical Sciences  
-University of New Hampshire  
+University of New Hampshire, Durham NH  
 August 2023-Current    
 
 # EDUCATION:
