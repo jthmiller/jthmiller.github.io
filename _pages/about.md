@@ -29,14 +29,3 @@ Seasonal harmful cyanobacteria blooms (HCBs) are characterized by the rapid prol
 
 In collaboration with [Amanda McQuaid](https://extension.unh.edu/person/amanda-mcquaid)
 and the [Lay Lakes Monitoring Program](https://extension.unh.edu/natural-resources/land-conservation-water-resources/lakes-lay-monitoring-program), [Peter Countway and Robin Seith](https://www.bigelow.org/about/people/pcountway.html) at Bigelow Marine Lab, and the town of [Wolfeboro, NH](https://www.wolfeboronh.us/wolfeboro-waters-committee), we will target picocyanobacteria from New Hampshire lakes for whole-genome sequencing to 1) assemble more genomes (and toxin producing genes) for pico-sized cyanobacteria, 2) measure the prevalence of toxins of pico-populations from different lakes in New Hampshire.
-
-
-
-<a href="phylo-salinity_significance.qzv">Download File</a>
-
-https://jthmiller.github.io
-[qzv](/Users/jeffreymiller/github/Jeffrey.miller.github.io/phylo-salinity_significance.qzv)
-
-https://
-
-https://biocore.github.io/qurro/demos/red_sea/index.html
