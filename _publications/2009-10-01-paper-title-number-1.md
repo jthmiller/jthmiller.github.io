@@ -11,5 +11,5 @@ QTL crosses for populations of killifish that have rapidly evolved resistance to
 
 
 <p align="center">
-  <img src="images/2024-QTL-crosses.png?raw=true" alt="QTL design"/>
+  <img src="images/2024-QTL-crosses.png" alt="QTL design"/>
 </p>
