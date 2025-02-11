@@ -5,7 +5,7 @@ permalink: /publication/2024
 excerpt: 'QTL crosses for populations of killifish that have rapidly evolved resistance to the developmental toxicity of PCBs and PAHs. We map population re-sequencing samples to the QTL map to intersect population genetic outliers and each QTLs in each cross'
 date: 2024-01-01
 venue: 'Evolutionary Applications'
-paperurl: 'http://Jeffrey.miller.github.io/files/pubs/Evolutionary Applications - 2024 - Miller - Independently evolved pollution resistance in four killifish populations is.pdf'
+paperurl: 'http://Jeffrey.miller.github.io/files/pubs/Evol-applications-Miller-2024.pdf'
 ---
 QTL crosses for populations of killifish that have rapidly evolved resistance to the developmental toxicity of PCBs and PAHs. We map population re-sequencing samples to the QTL map to intersect population genetic outliers and each QTLs in each cross
 
