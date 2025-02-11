@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jeffrey Miller"
+title                    : "Jeffrey T. Miller"
 title_separator          : "-"
-name                     : &name "Jeffrey Miller"
+name                     : &name "Jeffrey T. Miller"
 description              : &description "Personal website of Jeffrey Miller, Research Faculty at the University of New Hampshire in the Department of Molecular Cellular and Biomedical Sciences"
 url                      : https://jthmiller.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

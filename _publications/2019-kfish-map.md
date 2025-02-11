@@ -1,8 +1,8 @@
 ---
-title: "Paper Title Number 3"
+title: "Developing a High-Quality Linkage Map for the Atlantic Killi sh Fundulus heteroclitus"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+permalink: /publication/2019-kfish-map
+excerpt: 'Mapping a scaffold-level genome assembly to chromosomes with RAD-Seq'
 date: 2019-9-01
 venue: 'G3: Genes | Genomes | Genetics'
 paperurl: 'https://jthmiller.github.io/files/pubs/kfish-map.pdf'

@@ -11,13 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
-### Selected Publications
+
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-
-### All Publications
+---
+### Publications:
+--- 
 Roback, E.,Ferrufino, E., Moran, R., Mulliniks, C., Shennard, D., Gallop, J., Weagley, J., **Miller, J.**, Rohner, N., Kowalko, J., McGaugh, S. (2025) Population genomics of premature termination codons in cavefish with substantial trait loss. Molecular Biology and Evolution DOI: 10.1093/molbev/msaf012
 
 El Baidouri, F., **Miller, J.**, Kelly, M., Sevigny, J., Gilbert, H., Thomas, W. K., and Watts, A. (2025) An Optimized eDNA Protocol for Fish Tracking in Estuarine Environments. Scientific Reports, DOI: 10.21203/rs.3.rs-4740372/v1

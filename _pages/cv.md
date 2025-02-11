@@ -9,18 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
+### CURRENT APPOINTMENT:
 Research Assistant Professor  
 Department of Molecular, Cellular, and Biomedical Sciences  
 University of New Hampshire, Durham NH  
 August 2023-Current    
 
-# EDUCATION:
-
+### EDUCATION:
 University of California, Davis, Ph.D., Pharmacology and Toxicology, December 2018  
 Saint Cloud State University, MS, Cell and Molecular Biology, May 2012  
 Minnesota State University Moorhead, BA, Ecology and Evolutionary Biology, May 2009  
 
-# PREVIOUS APPOINTMENTS:
+### PREVIOUS APPOINTMENTS:
 Project Scientist - University of New Hampshire, Civil and Environmental Engineering
 
   * Bioinformatics and statistical analysis of eDNA samples with Alison Watts, Civil and Environmental Engineering 
@@ -37,7 +37,7 @@ Graduate Research - University of California Davis, Department of Environmental 
 
   * Mapping the Genetic Basis of Rapid Evolution to Industrial Pollutants in Atlantic Killifish. Conducted a comparative analysis of genome structure of killifish and other sequenced vertebrates. Used a quantitative genomic approach to determine the architecture of rapidly evolved resistance to the teratogenicity of pollutants in coastal killifish populations.
 
-# AWARDS AND FUNDING:
+### AWARDS AND FUNDING:
 NH Agricultural Experiment Station (CREATE) program grant, CoPI  (2023-Current)  
 State Water Resources Research Institute Program Grant, PI  (2023-Current)  
 National Institute of Environmental Health Sciences Predoc Training Fellowship  (2016-2018)  
@@ -45,7 +45,7 @@ National Science Foundation GK-12 Teaching Fellowship (2014-2015)
 Society of Environmental Toxicology and Chemistry Research Scholarship (2014)  
 George Freiderich Wildlife Protection Fund Fellowship (2013)  
 
-# PUBLICATIONS:
+### PUBLICATIONS:
 **Miller J.**, Clark, B., Reid, N., Nacci, D., Champlain, D., Whitehead, A. Independently evolved pollution resistance in four killifish populations is largely explained by few variants of large effect. (2023) Evolutionary Applications, DOI: 10.1101/2023.04.07.536079
 
 Garduno-Sanchez, M., Hernandez-Lozano, J., Moran, R.L., Gamboa, R.M., Gross, J.B., Rohner, N., Elliott, W., **Miller, J.**, Lozano-Vilano, L., McGaugh, S., Orneles-Garcia, P. (2023) Phylogeographic relationships and morphological evolution between cave and surface Astyanax mexicanus populations (De Fillipi 1853) (Actinopterygii, Characidae). Molecular Ecology, DOI: 10.22541/au.166979535.59484815/v1
@@ -72,7 +72,7 @@ Kolok, A., **Miller,  J.**, Schoenfuss, H. (2012) The Mini Mobile Environmental 
 
 Wisenden, B., Karst, J, **Miller, J.**, Miller, S.D. Fuselier, L. (2008) Anti-Predator Behavior in Response to Chemical Cues in Umbra limi. Environmental Biology of Fishes, DOI: 10.1007/s10641-007-9255-0
 
-# PLATFORM PRESENTATIONS:
+### PLATFORM PRESENTATIONS:
 **Miller, J**, Clark, B., Champlin, D., Nacci, D., Whitehead, A.W. (2018). ‘Genetic Architecture of Pollution Resistance in Multiple Populations of Killifish.‘ Society for Environmental Toxicology and Chemistry.
 
 **Miller, J.**, Cherr, G., Whitehead, A. (2015). ‘Aquatic Copper-Oxide Nanoparticle Exposure May Target Osmoregulatory Plasticity of Fish from Salinity Variable Environments.‘ Northern California Society of Environmental Toxicology and Chemistry.
@@ -81,7 +81,7 @@ Wisenden, B., Karst, J, **Miller, J.**, Miller, S.D. Fuselier, L. (2008) Anti-Pr
 
 **Miller, J.**, Martinovic, D., Bartel, SE., Schoenfuss, HL. (2011). ‘Bioassessment of Wastewater’s Estrogenic Impacts: Various Methods of Exposure. Can Biomarkers Be Altered Differentially?‘ Mid-West Society of Environmental Toxicology and Chemistry.
 
-# POSTER PRESENTATIONS:
+### POSTER PRESENTATIONS:
 **Miller, J.**, Clark, B., Champlin, D., Nacci, D., Whitehead, A.W. (2018). ‘Genetic Architecture of Pollution Resistance in Multiple Populations of Killifish.‘ Genetics Society of America: Population, Evolutionary, and Quantitative Genetics.
 
 **Miller, J.**, Clark, B., Champlin, D., Nacci, D., Whitehead, A.W. (2017) ‘The Genetic Architecture of Pollution Resistance Among Convergent Populations of Killifish (Fundulus heteroclitus).‘ National Meeting for Society for Environmental Toxicology and Chemistry.
@@ -92,14 +92,14 @@ Wisenden, B., Karst, J, **Miller, J.**, Miller, S.D. Fuselier, L. (2008) Anti-Pr
 
 **Miller, J.**, Martinovic, D., Bartel, S. E., Schoenfuss, H. L. (2010). ‘Quantifying Exposure & Effects of Endocrine Active Chemicals in the Environment through Parallel Field and Laboratory Studies of Bioindicators in Pimephales promelas.‘ National Meeting for Society of Environmental Toxicology and Chemistry.
 
-# TEACHING EXPERIENCE:
-- *Instructor* - University of New Hampshire, Genomics and Bioinformatics(2022-2024)  
-- *Instructor* - University of New Hampshire, Population Genomics(2022-2023)  
-- *Guest Lecture* - University of Minnesota, Zoology(November 25th 2019)  
+### TEACHING EXPERIENCE:
+- *Instructor* - University of New Hampshire, Genomics and Bioinformatics (2022-2024)  
+- *Instructor* - University of New Hampshire, Population Genomics (2022-2023)  
+- *Guest Lecture* - University of Minnesota, Zoology (November 25th 2019)  
 - *Invited Lecture* - Bowdoin College, Ocean Change Evolution (October 7th 2019)  
 - *Instructor* - Data and Software Carpentry Workshops  
-  - Genomics (R/Bash), California State University, Monterey Bay(March 22-23 2018)
-  - Python (Python/Git/Bash), Minnesota State University(October 27-28 2017)  
+  - Genomics (R/Bash), California State University, Monterey Bay (March 22-23 2018)
+  - Python (Python/Git/Bash), Minnesota State University (October 27-28 2017)  
 - *Teaching Assistant* - Data Intensive Biology Summer Institute, UC Davis  
   - Analyzing Next-Generation Sequencing Data Workshop (Summer 2017 and 2018)  
 - *GK-12 Teaching Fellow* - National Science Foundation:  
@@ -111,23 +111,21 @@ Wisenden, B., Karst, J, **Miller, J.**, Miller, S.D. Fuselier, L. (2008) Anti-Pr
 - *Graduate Teaching Assistant* - Louisiana State University  
     - Introduction to Biology for Science Majors (Fall 2011-Spring 2012)  
 
-# PREVIOUS POSITIONS:
+### PREVIOUS POSITIONS:
+*Biological Science Technician* – United States Park Service (Summer 2010)  
+*Wilderness Technician* – United States Forest Service (Summer 2008 and 2009)  
+*Outdoor Education Coordinator* - Student Conservation Assoc. (Winter 2007-Summer 2008)  
 
-*Biological Science Technician* – United States Park Service(Summer 2010)  
-*Wilderness Technician* – United States Forest Service(Summer 2008 and 2009)  
-*Outdoor Education Coordinator* - Student Conservation Assoc.(Winter 2007-Summer 2008)  
-
-# AFFILIATE MEMBERSHIPS:
+### AFFILIATE MEMBERSHIPS:
 Molecular Pathology & Genomics, UMN (Winter 2020-Current)  
-Center for Population Biology, UC Davis(Winter 2017-2019)  
+Center for Population Biology, UC Davis (Winter 2017-2019)  
 Data Science Initiative, UC Davis (Winter 2017-2019)  
-Coastal and Marine Sciences Institute, UC Davis(Winter 2016-2019)  
+Coastal and Marine Sciences Institute, UC Davis (Winter 2016-2019)  
 
-# COMMITTEES SERVICE AND TRAINING:
-
-Amazon Web Service Developer Training with NIH STRIDES(Summer 2020)  
-Evolutionary Applications Reviewer(2018-Current)  
-UC Davis Bodega Marine Laboratory Marine Ecology Outreach(2013-2018)  
-UC Davis Pharmacology and Toxicology Graduate Admissions Committee(Winter 2013)  
-NorCal Society for Environmental Toxicology and Chemistry Board of Directors(2014-2015)  
-Archbold Biological Station Volunteer Herpetology and Stream Ecology(Summer 2011)  
+### COMMITTEES SERVICE AND TRAINING:
+Amazon Web Service Developer Training with NIH STRIDES (Summer 2020)  
+Evolutionary Applications Reviewer (2018-Current)  
+UC Davis Bodega Marine Laboratory Marine Ecology Outreach (2013-2018)  
+UC Davis Pharmacology and Toxicology Graduate Admissions Committee (Winter 2013)  
+NorCal Society for Environmental Toxicology and Chemistry Board of Directors (2014-2015)  
+Archbold Biological Station Volunteer Herpetology and Stream Ecology (Summer 2011)  
