@@ -7,7 +7,6 @@ date: 2024-01-01
 venue: 'Evolutionary Applications'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Evolutionary Applications</i>. 1(1).'
 ---
 QTL crosses for populations of killifish that have rapidly evolved resistance to the developmental toxicity of PCBs and PAHs. We map population re-sequencing samples to the QTL map to intersect population genetic outliers and each QTLs in each cross
 
