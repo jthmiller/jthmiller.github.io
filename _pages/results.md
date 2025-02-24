@@ -67,9 +67,9 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 
 ### Results:  
 
-Bar-plot images of sites broken up by regions [here](images/barplots)  
+Bar-plot images of sites broken up by regions [here](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/barplots)  
 
-Network plots of sites broken up by regions [here](images/network-plots/)  
+Network plots of sites broken up by regions [here](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/network-plots/)  
 
 
 
