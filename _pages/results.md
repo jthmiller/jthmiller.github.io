@@ -7,7 +7,9 @@ author_profile: true
 
 ### NERRs eDNA 
 
-Metabarcoding analysis for NERRs sites sampled quarterly. Metadata for all sites [here](metadata.tsv), including SWMP data when available. Downloaded from https://cdmo.baruch.sc.edu
+Metabarcoding analysis for NERRs sites sampled quarterly. Metadata for all sites [here](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/metadata.tsv), including SWMP data when available. Downloaded from https://cdmo.baruch.sc.edu
+
+
 ## OTU Abundance 
 
 ![gulf](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/gulf-barplots-sample.png?raw=true)
