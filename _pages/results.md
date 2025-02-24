@@ -5,12 +5,6 @@ permalink: /results/
 author_profile: true
 ---
 
-
-### Picocyanobacteria
-
-[Bar plot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/picocyano/111524-JM-Picocyanobacteria_taxa-barplot.qzv)
-
-
 ### NERRs eDNA 
 
 Metabarcoding analysis for NERRs sites sampled quarterly. Metadata for all sites [here](metadata.tsv), including SWMP data when available. Downloaded from https://cdmo.baruch.sc.edu
@@ -75,3 +69,10 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 Bar-plot images of sites broken up by regions [here](images/barplots)  
 
 Network plots of sites broken up by regions [here](images/network-plots/)  
+
+
+
+
+### Picocyanobacteria
+
+[Bar plot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/picocyano/111524-JM-Picocyanobacteria_taxa-barplot.qzv)
