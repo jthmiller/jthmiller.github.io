@@ -18,6 +18,13 @@ Metabarcoding analysis for NERRs sites sampled quarterly. Metadata for all sites
 ## Core diversity metrics 
 PCoA is performed on distance matrices for the metrics below (seems to better handle missing data than PCA does). 
 
+
+results/core-metrics-results/alpha-group-significance.qzv  results/core-metrics-results/jaccard_emperor.qzv
+results/core-metrics-results/alpha-rarefaction.qzv         results/core-metrics-results/unweighted_unifrac_emperor.qzv
+results/core-metrics-results/bray_curtis_emperor.qzv       results/core-metrics-results/weighted_unifrac_emperor.qzv
+
+[test](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/unweighted_unifrac_pcoa_results.qza)
+
 More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-beta-diversity
 * Alpha diversity
     * Shannon’s diversity index (a quantitative measure of community richness)
