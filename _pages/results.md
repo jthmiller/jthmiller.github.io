@@ -17,22 +17,15 @@ Metabarcoding analysis for NERRs sites sampled quarterly. Metadata for all sites
 
 ## Core diversity metrics 
 PCoA is performed on distance matrices for the metrics below (seems to better handle missing data than PCA does). 
-
-
-results/core-metrics-results/alpha-group-significance.qzv  results/core-metrics-results/jaccard_emperor.qzv
-results/core-metrics-results/alpha-rarefaction.qzv         results/core-metrics-results/unweighted_unifrac_emperor.qzv
-results/core-metrics-results/bray_curtis_emperor.qzv       results/core-metrics-results/weighted_unifrac_emperor.qzv
-
-[test](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/weighted_unifrac_emperor.qzv)
-
 More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-beta-diversity
-* Alpha diversity [Rarefaction](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-rarefaction.qzv)
+
+* Alpha diversity 
+    * [Rarefaction](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-rarefaction.qzv)
     * Shannon’s diversity index (a quantitative measure of community richness)  
-    * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)[group sig.](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-group-significance.qzv)
-    * Observed OTUs (a qualitative measure of community richness) [group sig.](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-group-sig-obs-feats.qzv)
+    * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)[Kruskal-Wallis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/faithspd-group-significance.qzv)
+    * Observed OTUs (a qualitative measure of community richness) [Kruskal-Wallis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-group-sig-obs-feats.qzv)
     * Evenness (or Pielou’s Evenness; a measure of community evenness)
     
-
 * Beta diversity
     * Jaccard distance (a qualitative measure of community dissimilarity. Qualitative - presence / absence - percentage of taxa not found in both samples) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/jaccard_emperor.qzv)
     * Bray-Curtis distance (a quantitative measure of community dissimilarity. Takes into consideration abundance and presence absence) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/bray_curtis_emperor.qzv)
