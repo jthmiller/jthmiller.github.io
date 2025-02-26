@@ -11,9 +11,10 @@ Metabarcoding analysis for NERRs sites sampled quarterly. Metadata for all sites
 
 
 ## OTU Abundance 
-
-![gulf](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/gulf-barplots-sample.png?raw=true)
 Interactive barplots of relative abundance can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/NERRS_18s_taxa-barplot.qzv)
+Non-interactive plots broken up by region can be found [here](https://github.com/jthmiller/NERRs-18s-metabarcoding/tree/main/images/barplots)
+![gulf](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/gulf-barplots-sample.png?raw=true)
+
 
 ## Core diversity metrics 
 PCoA is performed on distance matrices for the metrics below (seems to better handle missing data than PCA does). 
