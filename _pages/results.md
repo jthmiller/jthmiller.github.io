@@ -23,7 +23,7 @@ results/core-metrics-results/alpha-group-significance.qzv  results/core-metrics-
 results/core-metrics-results/alpha-rarefaction.qzv         results/core-metrics-results/unweighted_unifrac_emperor.qzv
 results/core-metrics-results/bray_curtis_emperor.qzv       results/core-metrics-results/weighted_unifrac_emperor.qzv
 
-[test](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/unweighted_unifrac_pcoa_results.qza)
+[test](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/weighted_unifrac_emperor.qzv)
 
 More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-beta-diversity
 * Alpha diversity
