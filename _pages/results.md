@@ -26,11 +26,13 @@ results/core-metrics-results/bray_curtis_emperor.qzv       results/core-metrics-
 [test](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/weighted_unifrac_emperor.qzv)
 
 More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-beta-diversity
-* Alpha diversity
-    * Shannon’s diversity index (a quantitative measure of community richness)
-    * Observed OTUs (a qualitative measure of community richness)
-    * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)
+* Alpha diversity [Rarefaction](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-rarefaction.qzv)
+    * Shannon’s diversity index (a quantitative measure of community richness)  
+    * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)[group sig.](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-group-significance.qzv)
+    * Observed OTUs (a qualitative measure of community richness) [group sig.](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-group-sig-obs-feats.qzv)
     * Evenness (or Pielou’s Evenness; a measure of community evenness)
+    
+
 * Beta diversity
     * Jaccard distance (a qualitative measure of community dissimilarity. Qualitative - presence / absence - percentage of taxa not found in both samples) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/jaccard_emperor.qzv)
     * Bray-Curtis distance (a quantitative measure of community dissimilarity. Takes into consideration abundance and presence absence) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/bray_curtis_emperor.qzv)
