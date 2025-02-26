@@ -27,6 +27,8 @@ results/core-metrics-results/bray_curtis_emperor.qzv       results/core-metrics-
 
 More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-beta-diversity
 * Alpha diversity
+    * Rarefaction [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/alpha-rarefaction.qzv)
+
     * Shannon’s diversity index (a quantitative measure of community richness)
     * Observed OTUs (a qualitative measure of community richness)
     * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)
