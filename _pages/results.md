@@ -32,12 +32,12 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
     * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)
     * Evenness (or Pielou’s Evenness; a measure of community evenness)
 * Beta diversity
-    * Jaccard distance (a qualitative measure of community dissimilarity. Qualitative - presence / absence - percentage of taxa not found in both samples) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-diversity-phylogenetic/jaccard_emperor.qzv)
-    * Bray-Curtis distance (a quantitative measure of community dissimilarity. Takes into consideration abundance and presence absence) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-diversity-phylogenetic/bray_curtis_emperor.qzv)
+    * Jaccard distance (a qualitative measure of community dissimilarity. Qualitative - presence / absence - percentage of taxa not found in both samples) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/jaccard_emperor.qzv)
+    * Bray-Curtis distance (a quantitative measure of community dissimilarity. Takes into consideration abundance and presence absence) [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/bray_curtis_emperor.qzv)
     * Unweighted UniFrac distance (a qualitative measure of community dissimilarity that incorporates phylogenetic relationships between the features. Percentage of phylogenetic branch length not found in both samples)
-    [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-diversity-phylogenetic/unweighted_unifrac_emperor.qzv)
+    [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/unweighted_unifrac_emperor.qzv)
     * Weighted UniFrac distance (a quantitative measure of community dissimilarity that incorporates phylogenetic relationships between the features. Similar to Bray-Curtis but takes into consideration phylogenetic relationships)
-    [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-diversity-phylogenetic/weighted_unifrac_emperor.qzv)
+    [All Samples](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/weighted_unifrac_emperor.qzv)
 
 ### Unifrac PCoA performed on Unweighted UniFrac distance matrix 
 ![unifrac](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/unifrac_salinity_all-sites.png?raw=true)
