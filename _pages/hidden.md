@@ -33,22 +33,14 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
     * Weighted UniFrac distance (a quantitative measure of community dissimilarity that incorporates phylogenetic relationships between the features. Similar to Bray-Curtis but takes into consideration phylogenetic relationships)
     [weighted unifrac emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/weighted_unifrac_emperor.qzv)
 
-
-
 ## Descriptons Coming Soon...
-[phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-empress.qzv)
+[phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-empress.qzv)
 
-[beta-permanova-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-salinity_significance.qzv)
+[beta-permanova-stocked](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-stocked_significance.qzv)
 
-[beta-permanova-region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-region_significance.qzv)
+[beta-permanova-tide](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-tide_significance.qzv)
 
-[beta-permanova-NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-NERR_significance.qzv)
 
-[longitudinal_volatility_ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/longitudinal-filtered/volatility_plot.qzv)
-
-[longitudinal_volatility_genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/longitudinal-genus/volatility_plot.qzv)
-
-[longitudinal_volatility_family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/longitudinal-family/volatility_plot.qzv)
 
 
 
