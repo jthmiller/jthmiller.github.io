@@ -5,13 +5,10 @@ permalink: /hidden/
 author_profile: true
 ---
 
-### Aquafort eDNA 
-
+# Aquafort eDNA 
 
 ## OTU Abundance 
-For this barplot, change the 'level' dropdown to '6'. Use the other drop down to sort the columns (samples) by date, stocked/not-stocked, ect. Click on the square on the taxonomy key to visualized only selected taxa. 
-
-Interactive barplots of relative abundance can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/Coogan_taxa-barplot.qzv)
+For this barplot, change the 'level' dropdown to '6'. Use the other drop down to sort the columns (samples) by date, stocked/not-stocked, ect. Click on the square on the taxonomy key to visualized only selected taxa. Interactive barplots of relative abundance can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/Coogan_taxa-barplot.qzv)
 
 
 ## Core diversity metrics 
@@ -23,7 +20,6 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
     * Shannon’s diversity index (a quantitative measure of community richness)  
     * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)[Kruskal-Wallis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/faith_pd_alpha-group-significance.qzv)
     * Observed OTUs (a qualitative measure of community richness) [Kruskal-Wallis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/alpha-group-sig-obs-feats.qzv)
-    * Evenness (or Pielou’s Evenness; a measure of community evenness)
     
 * Beta diversity
     * Jaccard distance (a qualitative measure of community dissimilarity. Qualitative - presence / absence - percentage of taxa not found in both samples) [jaccard emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/jaccard_emperor.qzv)
@@ -36,7 +32,12 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 ## Descriptons Coming Soon...
 [phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-empress.qzv)
 
+
+One-way PERMANOVA: Determine whether groups of samples are significantly different from one another using a permutation-based statistical test. Tested here when grouping by pre- and post stocked, as well as tide
+
 [beta-permanova-stocked](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-stocked_significance.qzv)
+
+[pairwise-beta-permanova-stocked](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/pairwise_phylo-stocked_significance.qzv)
 
 [beta-permanova-tide](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-tide_significance.qzv)
 
