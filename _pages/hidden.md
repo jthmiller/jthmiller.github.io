@@ -33,7 +33,8 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 [phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-empress.qzv)
 
 
-One-way PERMANOVA: Determine whether groups of samples are significantly different from one another using a permutation-based statistical test. Tested here when grouping by pre- and post stocked, as well as tide
+### gemelli phylogenetic-rpca-with-taxonomy
+Performs phylogenetic robust center log-ratio transform robust PCA and ranks the features by the loadings of the resulting SVD. One-way PERMANOVA: Determine whether groups of samples are significantly different from one another using a permutation-based statistical test. Tested here when grouping by pre- and post stocked, as well as tide. Test performed on the Aitchison distance of the sample loadings from RPCA.
 
 [beta-permanova-stocked](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-stocked_significance.qzv)
 
