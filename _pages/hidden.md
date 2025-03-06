@@ -19,7 +19,7 @@ PCoA is performed on distance matrices for the metrics below (seems to better ha
 More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-beta-diversity
 
 * Alpha diversity 
-    * [Rarefaction](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/   )
+    * [Rarefaction](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/alpha-rarefaction.qzv)
     * Shannon’s diversity index (a quantitative measure of community richness)  
     * Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)[Kruskal-Wallis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/faithspd-group-significance.qzv)
     * Observed OTUs (a qualitative measure of community richness) [Kruskal-Wallis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/alpha-group-sig-obs-feats.qzv)
