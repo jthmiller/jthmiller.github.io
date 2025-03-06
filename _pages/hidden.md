@@ -36,9 +36,9 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 ## Descriptons Coming Soon...
 [phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-empress.qzv)
 
-[beta-permanova-stocked](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-stocked_significance.qzv)
+[beta-permanova-stocked](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-stocked_significance.qzv)
 
-[beta-permanova-tide](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylogenetic/phylo-tide_significance.qzv)
+[beta-permanova-tide](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/aquafort/phylo-tide_significance.qzv)
 
 
 
