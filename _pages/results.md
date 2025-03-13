@@ -87,7 +87,13 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 
 [phylo-salinity_significance](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/phylo-salinity_significance.qzv)
 
-[rf-state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/rf-state_subject_ordination.qzv)
+
+
+
+[rf-state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/longitudinal/rf-state_subject_ordination.qzv)
+
+
+
 
 [volatility_plot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/volatility_plot.qzv)
 
