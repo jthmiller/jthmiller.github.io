@@ -78,9 +78,9 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 
 [longitudinal_volatility_family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
 
+### Regional Longitudinal Volatility
 
-
-
+### Mixed effects models
 [linear-mixed-effects-by-region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-region.qzv)
 
 [linear-mixed-effects-by-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-salinity.qzv)
