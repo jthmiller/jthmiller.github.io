@@ -53,7 +53,14 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 [beta-permanova-Quarter](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Quarter_significance.qzv)
 
 
-The pairwise-distances visualizer also assesses changes between paired samples from two different “states”, but instead of taking a metadata column or artifact as input, it operates on a distance matrix to assess the distance between “pre” and “post” sample pairs, and tests whether these paired differences are significantly different between different groups, as specified by the group-column parameter. [longitudinal_pairwise-distances](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/pairwise-distances.qzv)
+The pairwise-distances visualizer also assesses changes between paired samples from two different “states”, but instead of taking a metadata column or artifact as input, it operates on a distance matrix to assess the distance between “pre” and “post” sample pairs, and tests whether these paired differences are significantly different between different groups, as specified by the group-column parameter. (Qiime doc) For our data, this will test whether the effect of season differs between regions. We expect northern climates to have a greater seasonal effect. Each comparison was perfomed using the unweighted unifrac distance matrix
+[Region_1-3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/Region_1-3_pairwise-distances.qzv)
+
+[North_South-1_3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-1_3-pairwise-distances.qzv)
+
+[North_South-2_4](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-pairwise-distances.qzv)
+
+
 
 [longitudinal_volatility_ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-filtered/volatility_plot.qzv)
 
