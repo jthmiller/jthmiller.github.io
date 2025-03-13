@@ -50,6 +50,7 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 
 [beta-permanova-Quarter](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Quarter_significance.qzv)
 
+[longitudinal_pairwise-distances](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/pairwise-distances.qzv)
 
 [longitudinal_volatility_ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-filtered/volatility_plot.qzv)
 
