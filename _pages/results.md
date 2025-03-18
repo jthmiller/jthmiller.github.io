@@ -69,10 +69,14 @@ Explore the rpca biplot feature loadings of samples
 
 [Pacific-Island_qurro-phylogenetic-rpca-with-taxonomy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-qurro_plot.qzv)
 
-
-
 ## Gemelli ctf
+[NE_qurro-ctf-qurro](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NE_ctf-qurro_plot.qzv)
 
+[SE_qurro-ctf-qurro](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/SE_ctf-qurro_plot.qzv)
+
+[N-Pacific_qurro-ctf-qurro](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/N-Pacific_ctf-qurro_plot.qzv)
+
+[Pacific-Island_qurro-ctf-qurro](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/Pacific-Island_ctf-qurro_plot.qzv)
 
 ## Longitudinal Volatility
 Interactive line plots assess how volatile a dependent variable (ASV or taxonomic group) is over a continuous, independent variable (e.g., time) in one or more groups. Select which ASV or taxa to plot on the y-axis to examine how variance in diversity and other metadata changes across time (set with the state-column parameter) in groups of samples and in individual subjects (set with the individual-id-column parameter).
