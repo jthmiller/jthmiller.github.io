@@ -45,10 +45,7 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/
 
 
-
-
-
-## Gemelli phylogenetic-rpca-with-taxonomy
+## Gemelli phylogenetic rpca
 [phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv)  
 Explore the rpca biplot feature loadings of samples
 [qurro-phylogenetic-rpca-with-taxonomy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-qurro_plot.qzv)  
