@@ -50,9 +50,11 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 ## Gemelli phylogenetic-rpca-with-taxonomy
 [phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv)
 
+Explore the rpca biplot feature loadings of samples
 [qurro-phylogenetic-rpca-with-taxonomy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-qurro_plot.qzv)
 
-## Description
+## beta-group-significance: Group samples by a metadata column to determine whether they are significantly different from one another using a permutation-based statistical test. At the national scale, 
+
 [beta-permanova-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-salinity_significance.qzv)
 
 [beta-permanova-region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-region_significance.qzv)
@@ -60,6 +62,8 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 [beta-permanova-NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-NERR_significance.qzv)
 
 [beta-permanova-Quarter](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Quarter_significance.qzv)
+
+[beta-permanova-Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Site_significance.qzv)
 
 ## Longitudinal pairwise distance
 The pairwise-distances visualizer also assesses changes between paired samples from two different “states”, but instead of taking a metadata column or artifact as input, it operates on a distance matrix to assess the distance between “pre” and “post” sample pairs, and tests whether these paired differences are significantly different between different groups, as specified by the group-column parameter. (Qiime doc) For our data, this will test whether the effect of season differs between regions. We expect northern climates to have a greater seasonal effect. Each comparison was perfomed using the unweighted unifrac distance matrix  
