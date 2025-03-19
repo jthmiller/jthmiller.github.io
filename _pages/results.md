@@ -88,8 +88,7 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 
 [longitudinal_volatility_family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
 
-### Regional Longitudinal Volatility
-
+### Regional Longitudinal ASV Volatility
 [SE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility_plot.qzv)
 
 [SE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility_plot.qzv)
@@ -97,6 +96,18 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 [PacIsland_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility_plot.qzv)
 
 [NE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
+
+### Regional Longitudinal Genus Volatility
+[SE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+
+[SE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+
+[PacIsland_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+
+[NE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+
+
+
 
 
 Accounts for the correlation among samples from the same subject (site within NERR)
