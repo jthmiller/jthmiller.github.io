@@ -97,7 +97,14 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 
 [NE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
 
-### Regional Longitudinal Genus Volatility
+##   Identify features that are predictive of a numeric metadata column,
+  state_column (e.g., time), and plot their relative frequencies across states
+  using interactive feature volatility plots. A supervised learning regressor
+  is used to identify important features and assess their ability to predict
+  sample states. state_column will typically be a measure of time, but any
+  numeric metadata column can be used.
+
+### Regional State Subject Longitudinal Volatility
 [SE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
 [N-Pacific_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv)
@@ -105,6 +112,22 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 [PacIsland_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
 [NE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+
+
+
+
+### Regional Longitudinal Genus Volatility
+[SE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv)
+
+[N-Pacific feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv)
+
+[PacIsland feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility-plot.qzv)
+
+[NE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility-plot.qzv)
+
+
+
+
 
 
 
