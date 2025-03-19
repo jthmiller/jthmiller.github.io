@@ -100,7 +100,7 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 ### Regional Longitudinal Genus Volatility
 [SE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
-[SE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+[N-Pacific_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
 [PacIsland_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
