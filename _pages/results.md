@@ -131,7 +131,7 @@ Identify features that are predictive of a numeric metadata column,
 
 
 
-[heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv)
+[heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-table-top-30.qza)
 
 
 
