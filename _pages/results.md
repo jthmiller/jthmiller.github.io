@@ -45,11 +45,18 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/
 
 
-## Gemelli phylogenetic rpca
+The qurro interactive plots are to explore the log fold change abundance of the features loading on the axis of each PCoA. The features can be plotted for groups of the samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
+
+
+
+## All Samples Phylogenetic rpca
+The phylo empress viz provides a phylogenetic tree of the ASVs alongside the ordination plots for the samples
 [phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv)  
 Explore the rpca biplot feature loadings of samples
 [qurro-phylogenetic-rpca-with-taxonomy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-qurro_plot.qzv)  
 
+
+## Regional phylogenetic rpca
 [SE_phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE_phylo-empress.qzv)  
 
 [SE_qurro-phylogenetic-rpca-with-taxonomy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE_phylo-qurro_plot.qzv)
