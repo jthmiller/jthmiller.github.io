@@ -88,7 +88,10 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 
 [longitudinal_volatility_family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
 
-### Regional Longitudinal ASV Volatility
+### ASV volitility
+[Sal-Min-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NERR_Sal-min_ctf_Sal-Min_volatility-plot.qzv)
+
+### Regional ASV Volatility
 [SE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility_plot.qzv)
 
 [SE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility_plot.qzv)
@@ -97,7 +100,7 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 
 [NE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
 
-### Regional Longitudinal Genus Volatility
+### Regional Genus Volatility
 [SE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv)
 
 [N-Pacific feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv)
