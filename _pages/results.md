@@ -128,7 +128,7 @@ Identify features that are predictive of a numeric metadata column,
 
 [NE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
-
+[genus heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/genus-heatmap.qza)
 
 [heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv)
 
