@@ -142,6 +142,10 @@ Identify features that are predictive of a numeric metadata column,
 [heatmap30](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-heatmap.qzv)
 
 
+### Filtered Diatoms, 
+[ASV Region heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv)
+
+
 
 
 
