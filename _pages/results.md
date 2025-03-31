@@ -147,8 +147,9 @@ Identify features that are predictive of a numeric metadata column,
 
 [OTU Region heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Region-heatmap.qzv)
 
+[unweighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/unweighted_unifrac_emperor.qzv)
 
-
+[weighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/weighted_unifrac_emperor.qzv)
 
 
 
