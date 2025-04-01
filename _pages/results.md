@@ -39,11 +39,25 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 ![unifrac](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/unifrac_salinity_all-sites.png?raw=true)
 Samples colored by minimum salinity from SWMP collected data within X days of eDNA sample collection. This is an interactive plot that can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/unweighted_unifrac_emperor.qzv)
 
+## Classify samples from ASVs/OTUs that were filtered for taxa with high 18s copy number
+[Qiime Sample Classification](https://docs.qiime2.org/2024.10/plugins/available/sample-classifier/classify-samples/) Predicts a categorical sample metadata column using a supervised learning classifier. Splits input data into training and test sets. The training set is used to train and test the estimator using a stratified k-fold cross- validation scheme. This includes optional steps for automated feature extraction and hyperparameter optimization. The test set validates classification accuracy of the optimized estimator. Outputs classification results for test set. For more details on the learning algorithm, see http://scikit-learn.org/stable/supervised_learning.html
+
+18s copy number in Bacillariophyta, Ciliophora, and Dinophyceae can be orders of magnitude higher than other taxa , resulting in extreme read counts for these taxa, which can swamp out the signals for other groups. One strategy to account for 18s copy number is to multiply read counts by a coefficent that was derived from the ratio between 18s copy number and biomass (as performed by Martin et al 2022, DOI 10.3897/mbmg.6.85794).
+
+### Heatmaps
+[ASVs predict Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv)[ASVs predict NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv)[ASVs predict Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site-heatmap.qzv)
+
+[OTU predict region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Region-heatmap.qzv)[OTU predict NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/NERR-heatmap.qzv)[OTU predict Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site-heatmap.qzv)
+
+PCoA on sample dissimilarity matricies:[bray curtis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/bray_curtis_emperor.qzv)[jaccard](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/jaccard_emperor.qzv)
+
+Phylogenetic PCoAs:[unweighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/unweighted_unifrac_emperor.qzv)[weighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/weighted_unifrac_emperor.qzv)
+
+
 
 ## Phylogenetic RPCA and CTF.
 "... robust principal-component analysis (RPCA) addresses sparsity and compositionality; compositional tensor factorization (CTF) addresses sparsity, compositionality, and repeated measure study designs; and UniFrac incorporates phylogenetic information. Here we introduce a strategy of incorporating phylogenetic information into RPCA and CTF. The resulting methods, phylo-RPCA, and phylo-CTF, provide substantial improvements over state-of-the-art methods in terms of discriminatory power of underlying clustering
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/
-
 
 The qurro interactive plots are to explore the log fold change abundance of the features loading on the axis of each PCoA. The features can be plotted for groups of the samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
 
@@ -140,29 +154,6 @@ Identify features that are predictive of a numeric metadata column,
 [heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv)
 
 [heatmap30](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-heatmap.qzv)
-
-### DOI 10.3897/mbmg.6.85794
-### Filtered p__Bacillariophyta,p__Ciliophora,c__Dinophyceae 
-[ASV Region heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv)
-
-[ASV NERR heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv)
-
-[ASV Site heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site-heatmap.qzv)
-
-[OTU Region heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Region-heatmap.qzv)
-
-[OTU NERR heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/NERR-heatmap.qzv)
-
-[OTU Site heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site-heatmap.qzv)
-
-
-[unweighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/unweighted_unifrac_emperor.qzv)
-
-[weighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/weighted_unifrac_emperor.qzv)
-
-[bray curtis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/bray_curtis_emperor.qzv)
-
-[jaccard](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/jaccard_emperor.qzv)
 
 
 
