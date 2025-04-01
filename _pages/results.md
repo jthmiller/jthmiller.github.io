@@ -44,7 +44,6 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 
 18s copy number in Bacillariophyta, Ciliophora, and Dinophyceae can be orders of magnitude higher than other taxa, resulting in extreme read counts for these taxa, which can swamp out the signals for other groups. One strategy to account for 18s copy number is to multiply read counts by a coefficent that was derived from the ratio between 18s copy number and biomass (as performed by Martin et al 2022, DOI 10.3897/mbmg.6.85794).
 
-### 
 Heatmaps of the ASVs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site-heatmap.qzv)
 
 Heatmaps of the OTUs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site-heatmap.qzv)
