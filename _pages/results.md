@@ -58,6 +58,12 @@ We used the default 'RandomForestRegressor' estimator. This works by building a 
 
 ### Accuracy Predictions: [Sal_Min-accuracy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-accuracy_results.qzv), [pH_Min-accuracy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-accuracy_results.qzv)  
 
+RPCA:
+CTF:
+GEMELLI: 
+
+
+
 
 ## Phylogenetic RPCA and CTF.
 "... robust principal-component analysis (RPCA) addresses sparsity and compositionality; compositional tensor factorization (CTF) addresses sparsity, compositionality, and repeated measure study designs; and UniFrac incorporates phylogenetic information. Here we introduce a strategy of incorporating phylogenetic information into RPCA and CTF. The resulting methods, phylo-RPCA, and phylo-CTF, provide substantial improvements over state-of-the-art methods in terms of discriminatory power of underlying clustering
@@ -70,23 +76,19 @@ The qurro interactive plots are to explore the log fold change abundance of the 
 ### Explore the rpca feature loadings with qurro here:[all-sites](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-qurro_plot.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE_phylo-qurro_plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/NE_phylo-qurro_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/N-Pacific_phylo-qurro_plot.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-qurro_plot.qzv)
 
 
-
-
-
 ## [Gemelli ctf](https://github.com/biocore/gemelli/blob/master/ipynb/tutorials/IBD-Tutorial-QIIME2-CLI.md)
-"In order to account for the correlation among samples from the same subject we will employ compositional tensor factorization (CTF). CTF builds on the ability to account for compositionality and sparsity using the robust center log-ratio transform ... but restructures and factors the data as a tensor." Explore the features loading in CTF with Qurro: [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NE_ctf-qurro_plot.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/SE_ctf-qurro_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/N-Pacific_ctf-qurro_plot.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/Pacific-Island_ctf-qurro_plot.qzv), [NO-island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NO-island_ctf-qurro_plot.qzv)
+"In order to account for the correlation among samples from the same subject we will employ compositional tensor factorization (CTF). CTF builds on the ability to account for compositionality and sparsity using the robust center log-ratio transform ... but restructures and factors the data as a tensor." 
+
+### Explore the features loading in CTF with Qurro: [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NE_ctf-qurro_plot.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/SE_ctf-qurro_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/N-Pacific_ctf-qurro_plot.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/Pacific-Island_ctf-qurro_plot.qzv), [NO-island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NO-island_ctf-qurro_plot.qzv)
 
 ## Longitudinal Volatility
 Interactive line plots assess how volatile a dependent variable (ASV or taxonomic group) is over a continuous, independent variable (e.g., time) in one or more groups. Select which ASV or taxa to plot on the y-axis to examine how variance in diversity and other metadata changes across time (set with the state-column parameter) in groups of samples and in individual subjects (set with the individual-id-column parameter)
-longitudinal volatility:[ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-filtered/volatility_plot.qzv), [genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-genus/volatility_plot.qzv), [family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
 
-### Regional ASV Volatility
-[SE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility_plot.qzv), [N-Pacific_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility_plot.qzv), [PacIsland_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility_plot.qzv), [NE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
+### Longitudinal volatility:[ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-filtered/volatility_plot.qzv), [genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-genus/volatility_plot.qzv), [family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
 
-### Regional Genus Volatility
-[SE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv), [N-Pacific feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv), [PacIsland feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility-plot.qzv), [NE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility-plot.qzv)
+### Regional ASV Volatility [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility_plot.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility_plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
 
-
+### Regional Genus Volatility [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility-plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility-plot.qzv)
 
 
 Identify features that are predictive of a numeric metadata column,
@@ -97,19 +99,11 @@ Identify features that are predictive of a numeric metadata column,
   numeric metadata column can be used.
 
 ### Regional State Subject Longitudinal Volatility
-[SE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+### State_subject_ordination: [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
-[N-Pacific_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv)
+[N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
-[PacIsland_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv)
-
-[NE_state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
-
-[genus heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/genus-heatmap.qza)
-
-[heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv)
-
-[heatmap30](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-heatmap.qzv)
+### Predicting including diatoms? [OTUs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/genus-heatmap.qza), [ASVs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv). [ASVs Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-heatmap.qzv)
 
 
 
