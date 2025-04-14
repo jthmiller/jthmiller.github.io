@@ -66,18 +66,18 @@ GEMELLI:
 
 
 ## Phylogenetic RPCA and CTF.
+"In order to account for the correlation among samples from the same subject we will employ compositional tensor factorization (CTF). CTF builds on the ability to account for compositionality and sparsity using the robust center log-ratio transform ... but restructures and factors the data as a tensor."
+
 "... robust principal-component analysis (RPCA) addresses sparsity and compositionality; compositional tensor factorization (CTF) addresses sparsity, compositionality, and repeated measure study designs; and UniFrac incorporates phylogenetic information. Here we introduce a strategy of incorporating phylogenetic information into RPCA and CTF. The resulting methods, phylo-RPCA, and phylo-CTF, provide substantial improvements over state-of-the-art methods in terms of discriminatory power of underlying clustering
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/
+
+For a tutorial on CTF with Qiime's Gemelli plugin, see [here](https://github.com/biocore/gemelli/blob/master/ipynb/tutorials/IBD-Tutorial-QIIME2-CLI.md)
 
 The qurro interactive plots are to explore the log fold change abundance of the features loading on each axis of the PCoA. The features can be plotted for groups of samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
 
 ### Explore the phylogenetic tree of ASVs alongside the rpca ordination: [all-sites](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/NE.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/N-Pacific.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-empress.qzv)     
 
 ### Explore the rpca feature loadings with qurro here:[all-sites](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-qurro_plot.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE_phylo-qurro_plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/NE_phylo-qurro_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/N-Pacific_phylo-qurro_plot.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-qurro_plot.qzv)
-
-
-## [Gemelli ctf](https://github.com/biocore/gemelli/blob/master/ipynb/tutorials/IBD-Tutorial-QIIME2-CLI.md)
-"In order to account for the correlation among samples from the same subject we will employ compositional tensor factorization (CTF). CTF builds on the ability to account for compositionality and sparsity using the robust center log-ratio transform ... but restructures and factors the data as a tensor." 
 
 ### Explore the features loading in CTF with Qurro: [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NE_ctf-qurro_plot.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/SE_ctf-qurro_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/N-Pacific_ctf-qurro_plot.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/Pacific-Island_ctf-qurro_plot.qzv), [NO-island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NO-island_ctf-qurro_plot.qzv)
 
