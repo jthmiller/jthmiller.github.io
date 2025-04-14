@@ -95,12 +95,7 @@ Interactive line plots assess how volatile a dependent variable (ASV or taxonomi
 ### Regional Genus Volatility [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility-plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility-plot.qzv)
 
 ## State Subject Volitility Ordination
-Identify features that are predictive of a numeric metadata column,
-  state_column (e.g., time), and plot their relative frequencies across states
-  using interactive feature volatility plots. A supervised learning regressor
-  is used to identify important features and assess their ability to predict
-  sample states. state_column will typically be a measure of time, but any
-  numeric metadata column can be used.
+Identify features that are predictive of a numeric metadata column, state_column (e.g., time), and plot their relative frequencies across states using interactive feature volatility plots. A supervised learning regressor is used to identify important features and assess their ability to predict sample states. state_column will typically be a measure of time, but any numeric metadata column can be used.
 
 ### With diatoms: [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
