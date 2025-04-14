@@ -105,7 +105,7 @@ Identify features that are predictive of a numeric metadata column, state_column
 
 
 
-Accounts for the correlation among samples from the same subject (site within NERR)
+Accounts for the correlation among samples from the same subject (site within NERR). Points are instead sites. 
 [rf-state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/longitudinal/rf-state_subject_ordination.qzv)
 
 Here, points represent each site (subject) rather than each of the samples.  (to look for groupings by salinity or other features)
