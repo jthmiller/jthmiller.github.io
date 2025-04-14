@@ -62,7 +62,7 @@ Accuracy Predictions: [Sal_Min-accuracy](https://view.qiime2.org/visualization/?
 "... robust principal-component analysis (RPCA) addresses sparsity and compositionality; compositional tensor factorization (CTF) addresses sparsity, compositionality, and repeated measure study designs; and UniFrac incorporates phylogenetic information. Here we introduce a strategy of incorporating phylogenetic information into RPCA and CTF. The resulting methods, phylo-RPCA, and phylo-CTF, provide substantial improvements over state-of-the-art methods in terms of discriminatory power of underlying clustering
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/
 
-The qurro interactive plots are to explore the log fold change abundance of the features loading on the axis of each PCoA. The features can be plotted for groups of the samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
+The qurro interactive plots are to explore the log fold change abundance of the features loading on each axis of the PCoA. The features can be plotted for groups of samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
 
 Explore the phylogenetic tree of ASVs alongside the rpca ordination: [phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv)
 
@@ -79,26 +79,11 @@ Rpca biplot feature loadings: [SE](https://view.qiime2.org/visualization/?src=ht
 Interactive line plots assess how volatile a dependent variable (ASV or taxonomic group) is over a continuous, independent variable (e.g., time) in one or more groups. Select which ASV or taxa to plot on the y-axis to examine how variance in diversity and other metadata changes across time (set with the state-column parameter) in groups of samples and in individual subjects (set with the individual-id-column parameter)
 longitudinal volatility:[ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-filtered/volatility_plot.qzv), [genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-genus/volatility_plot.qzv), [family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
 
-### ASV volitility
-[Sal-Min-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NERR_Sal-min_ctf_Sal-Min_volatility-plot.qzv)
-
 ### Regional ASV Volatility
-[SE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility_plot.qzv)
-
-[N-Pacific_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility_plot.qzv)
-
-[PacIsland_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility_plot.qzv)
-
-[NE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
+[SE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility_plot.qzv), [N-Pacific_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility_plot.qzv), [PacIsland_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility_plot.qzv), [NE_feat-volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
 
 ### Regional Genus Volatility
-[SE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv)
-
-[N-Pacific feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv)
-
-[PacIsland feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility-plot.qzv)
-
-[NE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility-plot.qzv)
+[SE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv), [N-Pacific feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv), [PacIsland feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility-plot.qzv), [NE feat volitility genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility-plot.qzv)
 
 
 
