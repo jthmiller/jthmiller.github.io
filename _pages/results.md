@@ -45,24 +45,22 @@ Samples colored by minimum salinity from SWMP collected data within X days of eD
 
 ### Phylogenetic: [unweighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/unweighted_unifrac_emperor.qzv), [weighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/weighted_unifrac_emperor.qzv)
 
-## Classify samples from ASVs/OTUs ()
+## Classify samples from ASVs/OTUs
 [Qiime Sample Classification](https://docs.qiime2.org/2024.10/plugins/available/sample-classifier/classify-samples/) predicts a categorical sample metadata column using a supervised learning classifier. Splits input data into training and test sets. The training set is used to train and test the estimator using a stratified k-fold cross- validation scheme. This includes optional steps for automated feature extraction and hyperparameter optimization. The test set validates classification accuracy of the optimized estimator. Outputs classification results for test set. For more details on the learning algorithm, see http://scikit-learn.org/stable/supervised_learning.html
 
 We used the default 'RandomForestRegressor' estimator. This works by building a collection of decision trees, each trained on a different random subset of the data (bagging) and a random subset of features. The final prediction is the average of the predictions made by all the individual decision trees. 
 
 18s copy number in Bacillariophyta, Ciliophora, and Dinophyceae can be orders of magnitude higher than other taxa, resulting in extreme read counts for these taxa, which can swamp out the signals for other groups. One strategy to account for 18s copy number is to multiply read counts by a coefficent that was derived from the ratio between 18s copy number and biomass (as performed by Martin et al 2022, DOI 10.3897/mbmg.6.85794).
 
+### Heatmaps of sample classification: notes-> Replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
+### Entire dataset ASVs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site-heatmap.qzv)
 
-### Heatmaps of sample classification:
-note: Filtered? Replace ASV ids with Tax name and ASV (ex: 1 of 4)
+### Entire dataset OTUs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site-heatmap.qzv)
 
-### ASVs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site-heatmap.qzv)
+### OTUs that predict sites within a single NERR: [SF](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/SF/heatmap.qzv), [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM/heatmap.qzv)
 
-### OTUs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site-heatmap.qzv)
-
-### Filtered OTUs that predict sites within NERR: [SF](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/SF/heatmap.qzv), [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM/heatmap.qzv)
-
+### Sample classification without removal of taxa with extreme 18s copy number
 ### Unfiltered OTUs that predict Quarter: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_quarter/heatmap.qzv)
 
 ### Unfiltered ASVs that predict sites within a NERR: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_unfiltered/heatmap.qzv)
@@ -73,11 +71,7 @@ note: Filtered? Replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
 ### Predicting including diatoms? [OTUs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/genus-heatmap.qza), [ASVs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv). [ASVs Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-heatmap.qzv)
 
-RPCA:  
 
-CTF:  
-
-GEMELLI: 
 
 
 
@@ -91,6 +85,13 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/
 For a tutorial on CTF with Qiime's Gemelli plugin, see [here](https://github.com/biocore/gemelli/blob/master/ipynb/tutorials/IBD-Tutorial-QIIME2-CLI.md)
 
 The qurro interactive plots are to explore the log fold change abundance of the features loading on each axis of the PCoA. The features can be plotted for groups of samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
+
+Quick explinations
+RPCA:  
+
+CTF:  
+
+GEMELLI: 
 
 ### Explore the phylogenetic tree of ASVs alongside the rpca ordination: [all-sites](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/NE.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/N-Pacific.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-empress.qzv)     
 
