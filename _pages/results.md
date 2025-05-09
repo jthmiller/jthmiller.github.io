@@ -54,7 +54,8 @@ We used the default 'RandomForestRegressor' estimator. This works by building a 
 
 notes: Will replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
-## Heatmaps of sample classification with removal of taxa with extreme 18s copy number: 
+## Heatmaps:
+### Sample classification with removal of taxa with extreme 18s copy number: 
 
 #### Entire dataset ASVs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site-heatmap.qzv)
 
@@ -67,7 +68,7 @@ notes: Will replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
 #### Unfiltered ASVs that predict sites within a NERR: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_unfiltered/heatmap.qzv)
 
-### OTUs predicting continous data: [Min Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-Sal_Min-important-feature-heatmap.qzv), [Min pH](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-pH_Min-important-feature-heatmap.qzv)
+#### OTUs predicting continous data: [Min Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-Sal_Min-important-feature-heatmap.qzv), [Min pH](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-pH_Min-important-feature-heatmap.qzv)
 
 #### Accuracy Predictions: [Min Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-accuracy_results.qzv), [Min pH](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-accuracy_results.qzv)  
 
