@@ -39,16 +39,20 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 ![unifrac](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/unifrac_salinity_all-sites.png?raw=true)
 Samples colored by minimum salinity from SWMP collected data within X days of eDNA sample collection. This is an interactive plot that can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/unweighted_unifrac_emperor.qzv)
 
-## Classify samples from ASVs/OTUs (removed taxa with high 18s copy number)
+
+## PCoAs after removal of taxa with extreme 18s copy number
+### Dissimilarity: [bray curtis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/bray_curtis_emperor.qzv), [jaccard](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/jaccard_emperor.qzv)
+
+### Phylogenetic: [unweighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/unweighted_unifrac_emperor.qzv), [weighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/weighted_unifrac_emperor.qzv)
+
+## Classify samples from ASVs/OTUs ()
 [Qiime Sample Classification](https://docs.qiime2.org/2024.10/plugins/available/sample-classifier/classify-samples/) predicts a categorical sample metadata column using a supervised learning classifier. Splits input data into training and test sets. The training set is used to train and test the estimator using a stratified k-fold cross- validation scheme. This includes optional steps for automated feature extraction and hyperparameter optimization. The test set validates classification accuracy of the optimized estimator. Outputs classification results for test set. For more details on the learning algorithm, see http://scikit-learn.org/stable/supervised_learning.html
 
 We used the default 'RandomForestRegressor' estimator. This works by building a collection of decision trees, each trained on a different random subset of the data (bagging) and a random subset of features. The final prediction is the average of the predictions made by all the individual decision trees. 
 
 18s copy number in Bacillariophyta, Ciliophora, and Dinophyceae can be orders of magnitude higher than other taxa, resulting in extreme read counts for these taxa, which can swamp out the signals for other groups. One strategy to account for 18s copy number is to multiply read counts by a coefficent that was derived from the ratio between 18s copy number and biomass (as performed by Martin et al 2022, DOI 10.3897/mbmg.6.85794).
 
-### PCoA on sample dissimilarity matricies: [bray curtis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/bray_curtis_emperor.qzv), [jaccard](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/jaccard_emperor.qzv)
 
-### Phylogenetic PCoAs: [unweighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/unweighted_unifrac_emperor.qzv), [weighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/weighted_unifrac_emperor.qzv)
 
 ### Heatmaps of sample classification:
 note: Filtered? Replace ASV ids with Tax name and ASV (ex: 1 of 4)
