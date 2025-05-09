@@ -113,12 +113,6 @@ Identify features that are predictive of a numeric metadata column, state_column
 
 ### With diatoms: [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv)
 
-
-
-
-
-
-
 Accounts for the correlation among samples from the same subject (site within NERR). Points are instead sites. 
 [rf-state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/longitudinal/rf-state_subject_ordination.qzv)
 
@@ -140,27 +134,19 @@ state-subject-ordination
 
 
 
-## beta-group-significance: Group samples by a metadata column to determine whether they are significantly different from one another using a permutation-based statistical test. At the national scale, 
+## Beta-group-significance: 
+Group samples by a metadata column to determine whether they are significantly different from one another using a permutation-based statistical test. At the national scale, 
 
-beta-permanova[salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-salinity_significance.qzv), [region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-region_significance.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-NERR_significance.qzv), [Quarter](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Quarter_significance.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Site_significance.qzv)
+Beta-permanova with predictor: [salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-salinity_significance.qzv), [region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-region_significance.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-NERR_significance.qzv), [Quarter](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Quarter_significance.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Site_significance.qzv)
 
 ## Longitudinal pairwise distance
-The pairwise-distances visualizer also assesses changes between paired samples from two different “states”, but instead of taking a metadata column or artifact as input, it operates on a distance matrix to assess the distance between “pre” and “post” sample pairs, and tests whether these paired differences are significantly different between different groups, as specified by the group-column parameter. (Qiime doc) For our data, this will test whether the effect of season differs between regions. We expect northern climates to have a greater seasonal effect. Each comparison was perfomed using the unweighted unifrac distance matrix  
+The pairwise-distances visualizer also assesses changes between paired samples from two different “states”, but instead of taking a metadata column or artifact as input, it operates on a distance matrix to assess the distance between “pre” and “post” sample pairs, and tests whether these paired differences are significantly different between different groups, as specified by the group-column parameter. (Qiime doc) For our data, this will test whether the effect of season differs between regions. We'd expect northern climates to have a greater seasonal effect. Each comparison was perfomed using the unweighted unifrac distance matrix  
 
-[Region_1-3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/Region_1-3_pairwise-distances.qzv)
+### Pairwise Comparisons: [Region_1-3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/Region_1-3_pairwise-distances.qzv), [Region_2-4](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/Region_2-4_pairwise-distances.qzv), [North_South-1_3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-1_3-pairwise-distances.qzv), [North_South-2_4](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-pairwise-distances.qzv)
 
-[Region_2-4](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/Region_2-4_pairwise-distances.qzv)
+These plots appears to support greater distances among norther samples over the 1 and 3rd quarter, compared to southern samples over that same timeframe.
 
-These plots appears to support greater distances among norther samples over the 1 and 3rd quarter, compared to southern samples over that same timeframe
-[North_South-1_3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-1_3-pairwise-distances.qzv)
-
-[North_South-2_4](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-pairwise-distances.qzv)
-
-This comparison was perfomed using the gemelli ctf distance matrix (not sure if this is appropriate)  
-
-[North_South-2_4-gemelli](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-gemelli_ctf_pairwise-distances.qzv)
-
-
+### Gemelli ctf distance matrix (not sure if this is appropriate):[North_South-2_4-gemelli](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-gemelli_ctf_pairwise-distances.qzv)
 
 ### Mixed effects models
 [linear-mixed-effects-by-region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-region.qzv)
@@ -168,10 +154,6 @@ This comparison was perfomed using the gemelli ctf distance matrix (not sure if 
 [linear-mixed-effects-by-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-salinity.qzv)
 
 [phylo-salinity_significance](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/phylo-salinity_significance.qzv)
-
-
-
-
 
 ## Regional Analysis:
 ### New England
