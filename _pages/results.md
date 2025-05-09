@@ -54,7 +54,7 @@ We used the default 'RandomForestRegressor' estimator. This works by building a 
 
 notes: Will replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
-## Heatmaps of sample classification: 
+## Heatmaps of sample classification with removal of taxa with extreme 18s copy number: 
 
 ### Entire dataset ASVs that predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site-heatmap.qzv)
 
@@ -62,7 +62,7 @@ notes: Will replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
 ### OTUs that predict sites within a single NERR: [SF](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/SF/heatmap.qzv), [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM/heatmap.qzv)
 
-### Sample classification without removal of taxa with extreme 18s copy number
+## Sample classification without removal of taxa with extreme 18s copy number
 ### Unfiltered OTUs that predict Quarter: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_quarter/heatmap.qzv)
 
 ### Unfiltered ASVs that predict sites within a NERR: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_unfiltered/heatmap.qzv)
