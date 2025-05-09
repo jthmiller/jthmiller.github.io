@@ -78,23 +78,21 @@ notes: Will replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
 
 
-## Phylogenetic RPCA and CTF.
+## [Phylogenetic RPCA and CTF](https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/)
 "In order to account for the correlation among samples from the same subject we will employ compositional tensor factorization (CTF). CTF builds on the ability to account for compositionality and sparsity using the robust center log-ratio transform ... but restructures and factors the data as a tensor."
 
-"... robust principal-component analysis (RPCA) addresses sparsity and compositionality; compositional tensor factorization (CTF) addresses sparsity, compositionality, and repeated measure study designs; and UniFrac incorporates phylogenetic information. Here we introduce a strategy of incorporating phylogenetic information into RPCA and CTF. The resulting methods, phylo-RPCA, and phylo-CTF, provide substantial improvements over state-of-the-art methods in terms of discriminatory power of underlying clustering
-https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/
+"... robust principal-component analysis (RPCA) addresses sparsity and compositionality; compositional tensor factorization (CTF) addresses sparsity, compositionality, and repeated measure study designs; and UniFrac incorporates phylogenetic information. Here we introduce a strategy of incorporating phylogenetic information into RPCA and CTF. The resulting methods, phylo-RPCA, and phylo-CTF, provide substantial improvements over state-of-the-art methods in terms of discriminatory power of underlying clustering"
 
 For a tutorial on CTF with Qiime's Gemelli plugin, see [here](https://github.com/biocore/gemelli/blob/master/ipynb/tutorials/IBD-Tutorial-QIIME2-CLI.md)
 
-The qurro interactive plots are to explore the log fold change abundance of the features loading on each axis of the PCoA. The features can be plotted for groups of samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
+
 
 ### Quick explinations of: 
+[Gemelli](https://github.com/biocore/gemelli/tree/master):"Gemelli is a tool box for running Robust Aitchison PCA (RPCA), Joint Robust Aitchison PCA (Joint-RPCA), TEMPoral TEnsor Decomposition (TEMPTED), and Compositional Tensor Factorization (CTF) on sparse compositional omics datasets. All these methods are unsupervised and aim to describe sample/subject variation and the biological features that separate them."
 
-RPCA:  
+The preprocessing transform for both RPCA and CTF is the robust centered log-ratio transform (rlcr) which accounts for sparse data (i.e. many missing/zero values). RPCA and CTF then perform a matrix or tensor factorization on only the observed values after rclr transformation, similar to Aitchison PCA performed on dense data. 
 
-CTF:  
-
-GEMELLI: 
+The qurro interactive plots are to explore the log fold change abundance of the features loading on each axis of the PCoA. The features can be plotted for groups of samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
 
 ### Explore the phylogenetic tree of ASVs alongside the rpca ordination: [all-sites](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/NE.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/N-Pacific.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-empress.qzv)     
 
@@ -137,9 +135,6 @@ These plots appears to support greater distances among norther samples over the 
 Gemelli CTF on regions where a single point is a single site within a NERR over all 4 quarter. If FW and SW sites are more similar to one another among NERRs in the region, points would group by site salinity classification (FW or SW) rather than NERR. 
 
 State subject biplot by region: [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/NE_subject_biplot.qzv)
-
-[state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/state_subject_ordination.qzv)
-
 [accuracy_results](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_ecam-feat-volatility/accuracy_results.qzv)
 
 
@@ -161,8 +156,3 @@ Network plots of sites broken up by regions [here](https://github.com/jthmiller/
 
 
 
-## [Gemelli](https://github.com/biocore/gemelli/tree/master)
-For sparse compositional omics datasets. All these methods are unsupervised and aim to describe sample/subject variation and the biological features that separate them.
-- Robust Aitchison PCA (RPCA)
-- Compositional Tensor Factorization (CTF) 
-The preprocessing transform for both RPCA and CTF is the robust centered log-ratio transform (rlcr) which accounts for sparse data (i.e. many missing/zero values). 
