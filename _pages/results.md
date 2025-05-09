@@ -130,11 +130,13 @@ These plots appears to support greater distances among norther samples over the 
 
 ### Gemelli ctf distance matrix (not sure if this is appropriate):[North_South-2_4-gemelli](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-gemelli_ctf_pairwise-distances.qzv)
 
-### linear mixed effects models by: [region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-region.qzv, [salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-salinity.qzv, [phylo-based-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/phylo-salinity_significance.qzv)
+### linear mixed effects models by: [region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-region.qzv, [salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-salinity.qzv, [phylo-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/phylo-salinity_significance.qzv)
 
 ## Regional Analysis:
 ### New England
-[NE_subject_biplot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/NE_subject_biplot.qzv)
+Gemelli CTF on regions where a single point is a single site within a NERR over all 4 quarter. If FW and SW sites are more similar to one another among NERRs in the region, points would group by site salinity classification (FW or SW) rather than NERR. 
+
+State subject biplot by region: [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/NE_subject_biplot.qzv)
 
 [state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/state_subject_ordination.qzv)
 
