@@ -61,11 +61,11 @@ note: Filtered? Replace ASV ids with Tax name and ASV (ex: 1 of 4)
 
 ### Unfiltered OTUs that predict Quarter: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_quarter/heatmap.qzv)
 
-### Unfiltered predict sites within a NERR: [GTM ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_unfiltered/heatmap.qzv)
+### Unfiltered ASVs that predict sites within a NERR: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_unfiltered/heatmap.qzv)
 
-### Heatmaps of the OTUs that predict continous data: [Sal_Min-Heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-Sal_Min-important-feature-heatmap.qzv), [pH_Min-Heatmap](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-pH_Min-important-feature-heatmap.qzv)
+### OTUs predicting continous data: [Min Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-Sal_Min-important-feature-heatmap.qzv), [Min pH](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-pH_Min-important-feature-heatmap.qzv)
 
-### Accuracy Predictions: [Sal_Min-accuracy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-accuracy_results.qzv), [pH_Min-accuracy](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-accuracy_results.qzv)  
+### Accuracy Predictions: [Min Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-accuracy_results.qzv), [Min pH](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-accuracy_results.qzv)  
 
 ### Predicting including diatoms? [OTUs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/genus-heatmap.qza), [ASVs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv). [ASVs Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-heatmap.qzv)
 
