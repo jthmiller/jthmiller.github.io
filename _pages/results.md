@@ -57,7 +57,7 @@ notes: Will replace ASV ids with Tax name and ASV (ex: 1 of 4)
 ## Heatmaps:
 ### Sample classification with removal of taxa with extreme 18s copy number: 
 
-#### Among all reserves, which ASVs predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-AsvID-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site_Corrected-important-feature-heatmap.qzv)
+#### Among all reserves, which ASVs predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-AsvID-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site_Corrected-AsvID-heatmap.qzv)
 
 The Site plot shows that Cryptomonadales_47of100 ASV is common among GTM,JC, and AB- but no other region (confirm on region heatmaps). This ASV is not common at MA. Also,g__Cryptomonas_17of92 is common of freshwater sites in all regions, but not common in marine/brackish clusters. 
 
