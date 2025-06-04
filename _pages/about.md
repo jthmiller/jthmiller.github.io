@@ -12,7 +12,7 @@ My research is centered on understanding the connections between humans and biot
 Other avenues of research include:
 - How terrestrial mammals respond to forest managemet practices through eDNA trapped in spider webs. 
 - Population genetics and eDNA
-- Environmetnal Contaminants and evolution
+- Environmetnal contaminants and evolution
 
 ------
 
