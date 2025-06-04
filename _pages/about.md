@@ -10,8 +10,9 @@ redirect_from:
 My research is centered on understanding the connections between humans and biota; most often using molecular tools for monitoring (environmental DNA, or eDNA) on fish in estuaries. I often collaborate with groups that wish to bring these tools to bare to monitor fish and other taxa to determine how they respond to restoration efforts- such as anadromous fish and dam removals.
 
 Other avenues of research include:
+- Pico-sized cyanobacteria blooms in NH lakes
 - How terrestrial mammals respond to forest managemet practices through eDNA trapped in spider webs. 
-- Population genetics and eDNA
+- Potential of eDNA for inferring population genetic parameters
 - Environmetnal contaminants and evolution
 
 ------
