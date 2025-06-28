@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "GB-Results"
+title: "NE Results"
 permalink: /gb-results/
 author_profile: true
 ---
