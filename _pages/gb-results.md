@@ -4,7 +4,8 @@ title: "NE Results"
 permalink: /gb-results/
 author_profile: true
 ---
-* Maps
+* Maps 
+
 ![jc](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/JC.png?raw=true)
 
 https://github.com/jthmiller/jthmiller.github.io/blob/master/images/JC.png
