@@ -5,8 +5,13 @@ permalink: /gb-results/
 author_profile: true
 ---
 * Maps 
+### Wells Sites
 ![WE](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/WE.png?raw=true)
+
+### Great Bay
 ![GB](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/GB.png?raw=true)
+
+### Jacques Cousteau 
 ![JC](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/JC.png?raw=true)
 
 
