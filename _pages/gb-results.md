@@ -5,7 +5,7 @@ permalink: /gb-results/
 author_profile: true
 ---
 * Maps
-![jc](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/JC.png)
+![jc](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/JC.png?raw=true)
 
 https://github.com/jthmiller/jthmiller.github.io/blob/master/images/JC.png
 * Alpha diversity
