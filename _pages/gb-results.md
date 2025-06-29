@@ -23,14 +23,14 @@ Alpha Diversity
 
 ![Diversity](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/gb-observed.png?raw=true)
 
-Shannon Diversirt
+Shannon Diversity
 ![Shannon](https://github.com/jthmiller/jthmiller.github.io/blob/master/images/gb-shannon.png?raw=true)
 
-Beta Diversity Links
+Phylogenetic Beta Diversity Links
 
-[unweighted](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/unweighted_unifrac_emperor.qzv)  
+Presence/Absence [unweighted](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/unweighted_unifrac_emperor.qzv)  
 
-[weighted](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/weighted_unifrac_emperor.qzv)
+Abundance  [weighted](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/weighted_unifrac_emperor.qzv)
 
 [NE_subject_biplot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/NE_subject_biplot.qzv)
 
