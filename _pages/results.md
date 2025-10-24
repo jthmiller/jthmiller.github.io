@@ -37,50 +37,106 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 
 ### Unifrac PCoA performed on Unweighted UniFrac distance matrix 
 ![unifrac](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/unifrac_salinity_all-sites.png?raw=true)
-Samples colored by minimum salinity from SWMP collected data within X days of eDNA sample collection. This is an interactive plot that can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-diversity-phylogenetic/weighted_unifrac_emperor.qzv)
-
-## Descriptons Coming Soon...
-[phylo-empress](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv)
-
-[beta-permanova-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-salinity_significance.qzv)
-
-[beta-permanova-region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-region_significance.qzv)
-
-[beta-permanova-NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-NERR_significance.qzv)
-
-[longitudinal_volatility_ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-filtered/volatility_plot.qzv)
-
-[longitudinal_volatility_genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-genus/volatility_plot.qzv)
-
-[longitudinal_volatility_family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
+Samples colored by minimum salinity from SWMP collected data within X days of eDNA sample collection. This is an interactive plot that can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/unweighted_unifrac_emperor.qzv)
 
 
+## PCoAs after removal of taxa with extreme 18s copy number
+#### Dissimilarity: [bray curtis](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/bray_curtis_emperor.qzv), [jaccard](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/jaccard_emperor.qzv)
 
-sdf
+#### Phylogenetic: [unweighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/unweighted_unifrac_emperor.qzv), [weighted unifrac](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/weighted_unifrac_emperor.qzv)
+
+## Classify samples from ASVs/OTUs
+[Qiime Sample Classification](https://docs.qiime2.org/2024.10/plugins/available/sample-classifier/classify-samples/) predicts a categorical sample metadata column using a supervised learning classifier. Splits input data into training and test sets. The training set is used to train and test the estimator using a stratified k-fold cross- validation scheme. This includes optional steps for automated feature extraction and hyperparameter optimization. The test set validates classification accuracy of the optimized estimator. Outputs classification results for test set. For more details on the learning algorithm, see http://scikit-learn.org/stable/supervised_learning.html
+
+We used the default 'RandomForestRegressor' estimator. This works by building a collection of decision trees, each trained on a different random subset of the data (bagging) and a random subset of features. The final prediction is the average of the predictions made by all the individual decision trees. 
+
+18s copy number in Bacillariophyta, Ciliophora, and Dinophyceae can be orders of magnitude higher than other taxa, resulting in extreme read counts for these taxa, which can swamp out the signals for other groups. One strategy to account for 18s copy number is to multiply read counts by a coefficent that was derived from the ratio between 18s copy number and biomass (as performed by Martin et al 2022, DOI 10.3897/mbmg.6.85794).
+
+notes: Will replace ASV ids with Tax name and ASV (ex: 1 of 4)
+
+## Heatmaps:
+### Sample classification with removal of taxa with extreme 18s copy number: 
+
+#### Among all reserves, which ASVs predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Region-AsvID-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/NERR-heatmap.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-ASVs/Site_Corrected-AsvID-heatmap.qzv)
+
+The Site plot shows that Cryptomonadales_47of100 ASV is common among GTM,JC, and AB- but no other region (confirm on region heatmaps). This ASV is not common at MA. Also,g__Cryptomonas_17of92 is common of freshwater sites in all regions, but not common in marine/brackish clusters. 
+
+
+#### Among all reserves, which OTUs predict: [Region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Region-heatmap.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/NERR-heatmap.qzv), [Site from Species](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site_Corrected-Species-heatmap.qzv), [Site from Genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site_Corrected-genus-heatmap.qzv), [Site from Order](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Site_Corrected-Order-heatmap.qzv)
+
+#### OTUs that predict sites within a single NERR: [SF](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/SF/heatmap.qzv), [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM/heatmap.qzv)
+
+### Sample classification without removal of taxa with extreme 18s copy number
+#### Unfiltered OTUs that predict Quarter: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_quarter/heatmap.qzv)
+
+#### Unfiltered ASVs that predict sites within a NERR: [GTM](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/GTM_unfiltered/heatmap.qzv)
+
+#### OTUs predicting continous data: [Min Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-Sal_Min-important-feature-heatmap.qzv), [Min pH](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-pH_Min-important-feature-heatmap.qzv)
+
+#### Accuracy Predictions: [Min Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/Sal_Min-accuracy_results.qzv), [Min pH](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/copy-filtered/sample-classifier-OTUs/pH_Min-accuracy_results.qzv)  
+
+#### Predicting including diatoms? [OTUs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/genus-heatmap.qza), [ASVs Regions](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/heatmap.qzv). [ASVs Salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/important-feature-heatmap.qzv)
 
 
 
 
-[linear-mixed-effects-by-region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-region.qzv)
 
-[linear-mixed-effects-by-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-salinity.qzv)
 
-[phylo-salinity_significance](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/phylo-salinity_significance.qzv)
+## [Phylogenetic RPCA and CTF](https://pmc.ncbi.nlm.nih.gov/articles/PMC9238373/)
+"In order to account for the correlation among samples from the same subject we will employ compositional tensor factorization (CTF). CTF builds on the ability to account for compositionality and sparsity using the robust center log-ratio transform ... but restructures and factors the data as a tensor."
 
-[rf-state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/rf-state_subject_ordination.qzv)
+"... robust principal-component analysis (RPCA) addresses sparsity and compositionality; compositional tensor factorization (CTF) addresses sparsity, compositionality, and repeated measure study designs; and UniFrac incorporates phylogenetic information. Here we introduce a strategy of incorporating phylogenetic information into RPCA and CTF. The resulting methods, phylo-RPCA, and phylo-CTF, provide substantial improvements over state-of-the-art methods in terms of discriminatory power of underlying clustering"
 
-[volatility_plot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/volatility_plot.qzv)
+For a tutorial on CTF with Qiime's Gemelli plugin, see [here](https://github.com/biocore/gemelli/blob/master/ipynb/tutorials/IBD-Tutorial-QIIME2-CLI.md)
 
-[genus-level_volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/genus-level_volatility_plot.qzv)
+### Quick explinations of: 
+[Gemelli](https://github.com/biocore/gemelli/tree/master):"Gemelli is a tool box for running Robust Aitchison PCA (RPCA), Joint Robust Aitchison PCA (Joint-RPCA), TEMPoral TEnsor Decomposition (TEMPTED), and Compositional Tensor Factorization (CTF) on sparse compositional omics datasets. All these methods are unsupervised and aim to describe sample/subject variation and the biological features that separate them."
 
-[ASV-level_volatility](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/asv-level_volatility_plot.qzv)
+The preprocessing transform for both RPCA and CTF is the robust centered log-ratio transform (rlcr) which accounts for sparse data (i.e. many missing/zero values). RPCA and CTF then perform a matrix or tensor factorization on only the observed values after rclr transformation, similar to Aitchison PCA performed on dense data. 
+
+The qurro interactive plots are to explore the log fold change abundance of the features loading on each axis of the PCoA. The features can be plotted for groups of samples (grouped by a meatadata column) or along a continous variable (eg: Salinity)
+
+#### Explore the phylogenetic tree of ASVs alongside the rpca ordination: [all-sites](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-empress.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/NE.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/N-Pacific.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-empress.qzv)     
+
+#### Explore the rpca feature loadings with qurro here:[all-sites](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-qurro_plot.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/SE_phylo-qurro_plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/NE_phylo-qurro_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/N-Pacific_phylo-qurro_plot.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/Pacific-Island_phylo-qurro_plot.qzv)
+
+#### Explore the features loading in CTF with Qurro: [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NE_ctf-qurro_plot.qzv), [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/SE_ctf-qurro_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/N-Pacific_ctf-qurro_plot.qzv), [Pacific-Island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/Pacific-Island_ctf-qurro_plot.qzv), [NO-island](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/ctf/NO-island_ctf-qurro_plot.qzv)
+
+## Longitudinal Volatility
+Interactive line plots assess how volatile a dependent variable (ASV or taxonomic group) is over a continuous, independent variable (e.g., time) in one or more groups. Select which ASV or taxa to plot on the y-axis to examine how variance in diversity and other metadata changes across time (set with the state-column parameter) in groups of samples and in individual subjects (set with the individual-id-column parameter)
+
+#### Longitudinal OTU volatility:[ASVs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-filtered/volatility_plot.qzv), [genus](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-genus/volatility_plot.qzv), [family](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-family/volatility_plot.qzv)
+
+#### Regional longitudinal ASV Volatility [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility_plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility_plot.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility_plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility_plot.qzv)
+
+#### Regional OTU (Genus) Volatility [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE_volatility-plot.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific_volatility-plot.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island_volatility-plot.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE_volatility-plot.qzv)
+
+## State Subject Volitility Ordination
+Identify features that are predictive of a numeric metadata column, state_column (e.g., time), and plot their relative frequencies across states using interactive feature volatility plots. A supervised learning regressor is used to identify important features and assess their ability to predict sample states. state_column will typically be a measure of time, but any numeric metadata column can be used. Gemelli ctf output into Qiime longatudinal volitility
+
+#### With diatoms: [SE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/SE-ctf_state_subject_ordination_longitudinal-volatility.qzv), [N-Pacific](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/N-Pacific-ctf_state_subject_ordination_longitudinal-volatility.qzv), [PacIsland](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/Pacific-Island-ctf_state_subject_ordination_longitudinal-volatility.qzv), [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/feat-volitility/NE-ctf_state_subject_ordination_longitudinal-volatility.qzv), [All NERRs](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/longitudinal/rf-state_subject_ordination.qzv)
+
+### Beta-group-significance (unfiltered): 
+Group samples by a metadata column to determine whether they are significantly different from one another using a permutation-based statistical test. At the national scale, 
+
+#### Beta-permanova with predictor: [salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-salinity_significance.qzv), [region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-region_significance.qzv), [NERR](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-NERR_significance.qzv), [Quarter](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Quarter_significance.qzv), [Site](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/phylo-Site_significance.qzv)
+
+## Longitudinal pairwise distance
+The pairwise-distances visualizer also assesses changes between paired samples from two different “states”, but instead of taking a metadata column or artifact as input, it operates on a distance matrix to assess the distance between “pre” and “post” sample pairs, and tests whether these paired differences are significantly different between different groups, as specified by the group-column parameter. (Qiime doc) For our data, this will test whether the effect of season differs between regions. We'd expect northern climates to have a greater seasonal effect. Each comparison was perfomed using the unweighted unifrac distance matrix  
+
+#### Pairwise Comparisons: [Region_1-3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/Region_1-3_pairwise-distances.qzv), [Region_2-4](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/Region_2-4_pairwise-distances.qzv), [North_South-1_3](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-1_3-pairwise-distances.qzv), [North_South-2_4](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-pairwise-distances.qzv)
+
+These plots appears to support greater distances among norther samples over the 1 and 3rd quarter, compared to southern samples over that same timeframe.
+
+#### Gemelli ctf distance matrix (not sure if this is appropriate):[North_South-2_4-gemelli](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/phylogenetic/longitudinal-pairwise-dis/North_South-2_4-gemelli_ctf_pairwise-distances.qzv)
+
+### linear mixed effects models by: [region](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-region.qzv, [salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/linear-mixed-effects-salinity.qzv, [phylo-salinity](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/all-sites/phylo-salinity_significance.qzv)
 
 ## Regional Analysis:
 ### New England
-[NE_subject_biplot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/NE_subject_biplot.qzv)
+Gemelli CTF on regions where a single point is a single site within a NERR over all 4 quarter. If FW and SW sites are more similar to one another among NERRs in the region, points would group by site salinity classification (FW or SW) rather than NERR. 
 
-[state_subject_ordination](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/state_subject_ordination.qzv)
-
+State subject biplot by region: [NE](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_gemelli-ctf/NE_subject_biplot.qzv)
 [accuracy_results](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/regional/NE_with-repl/NE_ecam-feat-volatility/accuracy_results.qzv)
 
 
@@ -99,3 +155,6 @@ Network plots of sites broken up by regions [here](https://github.com/jthmiller/
 ### Picocyanobacteria
 
 [Bar plot](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/picocyano/111524-JM-Picocyanobacteria_taxa-barplot.qzv)
+
+
+

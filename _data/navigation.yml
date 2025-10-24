@@ -20,3 +20,6 @@ main:
     
   - title: "Results"
     url: /results/
+
+  - title: "NE Results"
+    url: /gb-results/
