@@ -37,12 +37,12 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 
 ## Core diversity metrics for samples that have SWMP data
 * Beta diversity
-    * Jaccard distance (a qualitative measure of community dissimilarity. Qualitative - presence / absence - percentage of taxa not found in both samples) [jaccard emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/iles/results/nerrs/core-metrics-results/swmp-data/jaccard_emperor.qzv)
-    * Bray-Curtis distance (a quantitative measure of community dissimilarity. Takes into consideration abundance and presence absence) [bray curtis emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/iles/results/nerrs/core-metrics-results/swmp-data/bray_curtis_emperor.qzv)
+    * Jaccard distance (a qualitative measure of community dissimilarity. Qualitative - presence / absence - percentage of taxa not found in both samples) [jaccard emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/swmp-data/jaccard_emperor.qzv)
+    * Bray-Curtis distance (a quantitative measure of community dissimilarity. Takes into consideration abundance and presence absence) [bray curtis emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/swmp-data/bray_curtis_emperor.qzv)
     * Unweighted UniFrac distance (a qualitative measure of community dissimilarity that incorporates phylogenetic relationships between the features. Percentage of phylogenetic branch length not found in both samples)
-    [unweighted unifrac emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/iles/results/nerrs/core-metrics-results/swmp-data/unweighted_unifrac_emperor.qzv)
+    [unweighted unifrac emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/swmp-data/unweighted_unifrac_emperor.qzv)
     * Weighted UniFrac distance (a quantitative measure of community dissimilarity that incorporates phylogenetic relationships between the features. Similar to Bray-Curtis but takes into consideration phylogenetic relationships)
-    [weighted unifrac emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/iles/results/nerrs/core-metrics-results/swmp-data/weighted_unifrac_emperor.qzv)
+    [weighted unifrac emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/swmp-data/weighted_unifrac_emperor.qzv)
 
 
 
