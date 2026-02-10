@@ -46,6 +46,13 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
 
 
 
+![CAP](https://github.com/jthmiller/jthmiller.github.io/files/results/nerrs/core-metrics-results/filtered_CAP_Constrained.png?raw=true)
+
+![Sal](https://github.com/jthmiller/jthmiller.github.io/files/results/nerrs/core-metrics-results/filtered_CAP_Constrained-sal.png?raw=true)
+
+![Temp](https://github.com/jthmiller/jthmiller.github.io/files/results/nerrs/core-metrics-results/filtered_CAP_Constrained-temp.png?raw=true)
+
+
 ### Unifrac PCoA performed on Unweighted UniFrac distance matrix 
 ![unifrac](https://github.com/jthmiller/NERRs-18s-metabarcoding/blob/main/images/sample-plots/unifrac_salinity_all-sites.png?raw=true)
 Samples colored by minimum salinity from SWMP collected data within X days of eDNA sample collection. This is an interactive plot that can be found [here](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/unweighted_unifrac_emperor.qzv)
