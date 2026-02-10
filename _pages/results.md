@@ -44,8 +44,6 @@ More complete descriptions here: https://docs.onecodex.com/en/articles/4150649-b
     * Weighted UniFrac distance (a quantitative measure of community dissimilarity that incorporates phylogenetic relationships between the features. Similar to Bray-Curtis but takes into consideration phylogenetic relationships)
     [weighted unifrac emperor](https://view.qiime2.org/visualization/?src=https://jthmiller.github.io/files/results/nerrs/core-metrics-results/swmp-data/weighted_unifrac_emperor.qzv)
 
-
-
 ![CAP](https://github.com/jthmiller/jthmiller.github.io/files/results/nerrs/core-metrics-results/filtered_CAP_Constrained.png?raw=true)
 
 ![Sal](https://github.com/jthmiller/jthmiller.github.io/files/results/nerrs/core-metrics-results/filtered_CAP_Constrained-sal.png?raw=true)
