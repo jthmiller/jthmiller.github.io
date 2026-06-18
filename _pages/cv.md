@@ -38,15 +38,22 @@ Graduate Research - University of California Davis, Department of Environmental 
   * Mapping the Genetic Basis of Rapid Evolution to Industrial Pollutants in Atlantic Killifish. Conducted a comparative analysis of genome structure of killifish and other sequenced vertebrates. Used a quantitative genomic approach to determine the architecture of rapidly evolved resistance to the teratogenicity of pollutants in coastal killifish populations.
 
 ### AWARDS AND FUNDING:
-NH Agricultural Experiment Station (Hatch), PI - Spider-web eDNA for monitoring forest wildlife, pests, and pathogens in New Hampshire  (2026-2029)  
-NH Agricultural Experiment Station (CREATE) program grant, CoPI  (2023-Current)  
-State Water Resources Research Institute Program Grant, PI  (2023-Current)  
+NH Agricultural Experiment Station (NHAES) Foundational Funding (McIntire-Stennis), PI (2026-2029)  
+NHAES Graduate research assistants (GRA), PI (2026-2028)
+NHAES Collaborative Research Enhancement and Team Exploration (CREATE) program grant, CoPI  (2023-2026)  
+State Water Resources Research Institute Program Grant, PI  (2023-2025)  
 National Institute of Environmental Health Sciences Predoc Training Fellowship  (2016-2018)  
 National Science Foundation GK-12 Teaching Fellowship (2014-2015)  
 Society of Environmental Toxicology and Chemistry Research Scholarship (2014)  
 George Freiderich Wildlife Protection Fund Fellowship (2013)  
 
 ### PUBLICATIONS:
+Watts, A., Gold, Z., Patin, N., Adams, N., Baker, J., El Baidouri, F., Grey, E., Holmes, A., Jacobson, K., Jungbluth, S., Kajita, T., Kiledal, A., Lemay, M., Montes, E., Muller-Karger, F., **Miller, J.**, Ogburn, M., Pitz, K., Silliman, K., Thompson, A., Thompson, L. Guidance and best practices for species identification using eDNA metabarcoding. When do you call a cod a cod? Metabarcoding and Metagenomics, Accepted.
+
+Roback, E.,Ferrufino, E., Moran, R., Mulliniks, C., Shennard, D., Gallop, J., Weagley, J., **Miller, J.**, Rohner, N., Kowalko, J., McGaugh, S. (2025) Population genomics of premature termination codons in cavefish with substantial trait loss. Molecular Biology and Evolution DOI: 10.1093/molbev/msaf012
+
+El Baidouri, F., **Miller, J.**, Kelly, M., Sevigny, J., Gilbert, H., Thomas, W. K., and Watts, A. (2025) An Optimized eDNA Protocol for Fish Tracking in Estuarine Environments. Scientific Reports, DOI: 10.21203/rs.3.rs-4740372/v1
+
 **Miller J.**, Clark, B., Reid, N., Nacci, D., Champlain, D., Whitehead, A. Independently evolved pollution resistance in four killifish populations is largely explained by few variants of large effect. (2023) Evolutionary Applications, DOI: 10.1101/2023.04.07.536079
 
 Garduno-Sanchez, M., Hernandez-Lozano, J., Moran, R.L., Gamboa, R.M., Gross, J.B., Rohner, N., Elliott, W., **Miller, J.**, Lozano-Vilano, L., McGaugh, S., Orneles-Garcia, P. (2023) Phylogeographic relationships and morphological evolution between cave and surface Astyanax mexicanus populations (De Fillipi 1853) (Actinopterygii, Characidae). Molecular Ecology, DOI: 10.22541/au.166979535.59484815/v1
