@@ -9,7 +9,7 @@ redirect_from:
 
 Research in our lab is centered on molecular tools, especially environmental DNA (eDNA), to study the relationships between humans, biological communities, and our ecosystem. A core focus of our lab is translational: partnering with resource managers and conservation practitioners to apply these methods where they matter, such as monitoring fish responses to dam removals, conservation efforts, and other interventions.
 
-### Current Projects:
+## Current Projects:
 
 *Newly funded*: Spider webs as eDNA samplers for forest wildlife, pests, and pathogens
 ------
@@ -25,10 +25,11 @@ In collaboration with NH Fish & Game, we are investigating the impact of dams an
   <img src="images/river-eDNA.png?raw=true" alt="Sampling Oyster River"/>
 </p>
 
-### Other interests, projects, and collaborations: 
+## Other interests, projects, and collaborations: 
 
 - Monitoring very different, dynamic estuaries across the the [NERRs](https://nerrssciencecollaborative.org) system with PI [Alison Watts](https://www.estuarydna.org)
 - Tracking the movement and diet of cod with PI [Nathan Furey](https://fishmovementecolab.wixsite.com/fureyfmelab/people), and PhD students Aliya Caldwell and Sidney Axtell
+- eDNA-based methods for assessing river health from algae with Ben Block and Ben Jessup at Tetra Tech
 - Potential of eDNA for inferring population genetic parameters
 - In collaboration with [Amanda McQuaid](https://extension.unh.edu/person/amanda-mcquaid)
 and the [Lay Lakes Monitoring Program](https://extension.unh.edu/natural-resources/land-conservation-water-resources/lakes-lay-monitoring-program), [Peter Countway and Robin Seith](https://www.bigelow.org/about/people/pcountway.html) at Bigelow Marine Lab, and the town of [Wolfeboro, NH](https://www.wolfeboronh.us/wolfeboro-waters-committee), we will target picocyanobacteria from New Hampshire lakes for whole-genome sequencing to 1) assemble more genomes (and toxin producing genes) for pico-sized cyanobacteria, 2) measure the prevalence of toxins of pico-populations from different lakes in New Hampshire.
