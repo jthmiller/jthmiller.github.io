@@ -9,6 +9,10 @@ redirect_from:
 
 Research in our lab is centered on molecular tools, especially environmental DNA (eDNA), to study the relationships between humans, biological communities, and our ecosystem. A core focus of our lab is translational: partnering with resource managers and conservation practitioners to apply these methods where they matter, such as monitoring fish responses to dam removals or monitoring biodiversity in managed forests (see below for more!). On the analytical side, we are increasingly interested in the application and interpretation joint species distribution models (JSDMs), hierarchical modeling frameworks like HMSC, as well as the growing role of machine learning and AI in making sense of complex biodiversity data.
 
+<p align="center">
+  <img src="images/river-eDNA.png?raw=true" alt="Sampling Oyster River"/>
+</p>
+
 ## Current Projects:
 
 *Newly funded*: Spider webs as eDNA samplers for forest wildlife, pests, and pathogens
@@ -17,13 +21,10 @@ Starting September 2026, a new three-year project funded by the New Hampshire Ag
 
 Working with [The Nature Conservancy](https://www.nature.org/en-us/about-us/where-we-work/united-states/new-hampshire/), the [Southeast Land Trust of NH](https://seltnh.org), the [Squam Lakes Natural Science Center](https://nhnature.org), and NH Fish & Game, the project has three goals: 1) determine how biomass and distance from a source animal affect detection of NH wildlife species, using controlled wildlife enclosures at Squam Lakes; 2) test how forest management treatments (patch cuts, thinning, and unmanaged reserves) affect detection of wildlife and forest pathogens at TNC's Green Hills and Surry Mountain Preserves; and 3) integrate spider-web eDNA with camera-trap and passive-acoustic data, in collaboration with [Remington Moll](https://colsa.unh.edu/person/rem-moll) and [Laura Kloepper](https://colsa.unh.edu/person/laura-kloepper), to build multi-method species distribution models across New Hampshire's Wildlife Management Units.
 
-*Newly funded*: Spider webs as eDNA samplers for forest wildlife, pests, and pathogens
+*Newly funded*: Monitoring fish and general biodiversity in response to dam removal
 ------
-In collaboration with NH Fish & Game, we are investigating the impact of dams and their removal on two rivers in the Great Bay Watershed. We are sampling around the Oyster River / Mill Pond dam (currently under removal) and the Pickpocket dam (under consideration of removal) on the Squamscott / Exeter River. We are going to characterize the fish communities through the summer of 2024 herring run and the pre/post Mill Pond dam removal.   
+In collaboration with NH Fish & Game and with funding from NH Sea Grant, we are collecting daily water samples from the Oyster River at the Mill Pond Dam to monitor river herring using eDNA. A longer-term goal is to develop an easy-to-use platform that managers can use to regularly monitor herring runs. Alongside this, we are establishing a baseline of fish (12s metabarcoding) and general biodiversity (18s metabarcoding) for the Oyster River to compare against samples collected as the river recovers after dam removal. We are also sampling at the Pickpocket Dam on the Squamscott/Exeter River, which is currently under consideration for removal.
 
-<p align="center">
-  <img src="images/river-eDNA.png?raw=true" alt="Sampling Oyster River"/>
-</p>
 
 ## Other interests, projects, and collaborations: 
 
