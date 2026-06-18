@@ -14,12 +14,13 @@ main:
         
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "People"
+    url: /people/
+
+#  - title: "CV"
+#    url: /cv/
     
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Results"
+  - title: "Shared Results"
     url: /results/
 
-  - title: "NE Results"
-    url: /gb-results/
