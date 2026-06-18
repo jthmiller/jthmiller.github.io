@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Research in our lab is centered on molecular tools, especially environmental DNA (eDNA), to study the relationships between humans, biological communities, and our ecosystem. A core focus of our lab is translational: partnering with resource managers and conservation practitioners to apply these methods where they matter, such as monitoring fish responses to dam removals, conservation efforts, and other interventions.
+Research in our lab is centered on molecular tools, especially environmental DNA (eDNA), to study the relationships between humans, biological communities, and our ecosystem. A core focus of our lab is translational: partnering with resource managers and conservation practitioners to apply these methods where they matter, such as monitoring fish responses to dam removals, conservation efforts, and other interventions. On the analytical side, we are increasingly interested in the application and interpretation joint species distribution models (JSDMs), hierarchical modeling frameworks like HMSC, as well as the growing role of machine learning and AI in making sense of complex biodiversity data.
 
 ## Current Projects:
 
@@ -30,6 +30,7 @@ In collaboration with NH Fish & Game, we are investigating the impact of dams an
 - Monitoring very different, dynamic estuaries across the the [NERRs](https://nerrssciencecollaborative.org) system with PI [Alison Watts](https://www.estuarydna.org)
 - Tracking the movement and diet of cod with PI [Nathan Furey](https://fishmovementecolab.wixsite.com/fureyfmelab/people), and PhD students Aliya Caldwell and Sidney Axtell
 - eDNA-based methods for assessing river health from algae with Ben Block and Ben Jessup at Tetra Tech
-- Potential of eDNA for inferring population genetic parameters
 - In collaboration with [Amanda McQuaid](https://extension.unh.edu/person/amanda-mcquaid)
 and the [Lay Lakes Monitoring Program](https://extension.unh.edu/natural-resources/land-conservation-water-resources/lakes-lay-monitoring-program), [Peter Countway and Robin Seith](https://www.bigelow.org/about/people/pcountway.html) at Bigelow Marine Lab, and the town of [Wolfeboro, NH](https://www.wolfeboronh.us/wolfeboro-waters-committee), we will target picocyanobacteria from New Hampshire lakes for whole-genome sequencing to 1) assemble more genomes (and toxin producing genes) for pico-sized cyanobacteria, 2) measure the prevalence of toxins of pico-populations from different lakes in New Hampshire.
+- eDNA for inferring population genetic parameters (structure and gene flow)
+- Machine learning, statistical analysis, and AI
