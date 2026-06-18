@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Research in our lab is centered on molecular tools, especially environmental DNA (eDNA), to study the relationships between humans, biological communities, and our ecosystem. A core focus of our lab is translational: partnering with resource managers and conservation practitioners to apply these methods where they matter, such as monitoring fish responses to dam removals, conservation efforts, and other interventions. On the analytical side, we are increasingly interested in the application and interpretation joint species distribution models (JSDMs), hierarchical modeling frameworks like HMSC, as well as the growing role of machine learning and AI in making sense of complex biodiversity data.
+Research in our lab is centered on molecular tools, especially environmental DNA (eDNA), to study the relationships between humans, biological communities, and our ecosystem. A core focus of our lab is translational: partnering with resource managers and conservation practitioners to apply these methods where they matter, such as monitoring fish responses to dam removals or monitoring biodiversity in managed forests (see below for more!). On the analytical side, we are increasingly interested in the application and interpretation joint species distribution models (JSDMs), hierarchical modeling frameworks like HMSC, as well as the growing role of machine learning and AI in making sense of complex biodiversity data.
 
 ## Current Projects:
 
