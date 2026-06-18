@@ -38,6 +38,7 @@ Graduate Research - University of California Davis, Department of Environmental 
   * Mapping the Genetic Basis of Rapid Evolution to Industrial Pollutants in Atlantic Killifish. Conducted a comparative analysis of genome structure of killifish and other sequenced vertebrates. Used a quantitative genomic approach to determine the architecture of rapidly evolved resistance to the teratogenicity of pollutants in coastal killifish populations.
 
 ### AWARDS AND FUNDING:
+NH Agricultural Experiment Station (Hatch), PI - Spider-web eDNA for monitoring forest wildlife, pests, and pathogens in New Hampshire  (2026-2029)  
 NH Agricultural Experiment Station (CREATE) program grant, CoPI  (2023-Current)  
 State Water Resources Research Institute Program Grant, PI  (2023-Current)  
 National Institute of Environmental Health Sciences Predoc Training Fellowship  (2016-2018)  
