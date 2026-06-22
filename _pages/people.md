@@ -14,7 +14,7 @@ PhD, University of California, Davis
 [CV](https://jthmiller.github.io/cv/)
 
 ## PhD Students
-Adeline Casali (joining the lab Sept. 2027!)
+Adeline Casali (joining the lab Sept. 2026!)
 
 ## Previous (coming soon)
 
