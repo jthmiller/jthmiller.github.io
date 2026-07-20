@@ -1,5 +1,5 @@
 ---
-title: "Developing a High-Quality Linkage Map for the Atlantic Killi sh Fundulus heteroclitus"
+title: "Developing a High-Quality Linkage Map for the Atlantic Killfish, Fundulus heteroclitus"
 collection: publications
 permalink: /publication/2019-kfish-map
 excerpt: 'Mapping a scaffold-level genome assembly to chromosomes with RAD-Seq'

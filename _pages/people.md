@@ -11,7 +11,7 @@ Research Assistant Professor \
 University of New Hampshire \
 Department of Molecular Cellular and Biomedical Sciences \
 PhD, University of California, Davis \
-[CV](https://jthmiller.github.io/cv/) \
+[CV](https://jthmiller.github.io/cv/)
 
 When I'm not working, you might find me (and the family) out camping, hiking, or at the beach (often unsuccessfully trying to paddle out). 
 
