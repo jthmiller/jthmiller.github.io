@@ -43,16 +43,13 @@ Graduate Research - University of California Davis, Department of Environmental 
 NHAES Hatch, PI. Spider-web eDNA for forest biodiversity. $75,000 (2026-2029)  
 NHAES Graduate Research Assistantship, PI. $52,000 (2026-2028)  
 NERRS Science Collaborative, Co-PI. Novel technologies to quantify river herring migration before and after dam removal. $595,000 (2026-2029)  
+NHAES CREATE (McIntire-Stennis Research Capacity Fund), PI (with R. Moll and M. Palace). *Forest Storeys: Where Spider Webs Occur, What They Capture, and What That Reveals About Forest Structure.* $50,000 (2026-2028)  
 
 *Completed*
 
 Hawai'i Division of Aquatic Resources, Co-PI. Hawaiian Estuaries Biodiversity. $89,000 (2024-2025)  
 NHAES Collaborative Research Enhancement and Team Exploration (CREATE) program grant, Co-PI. eDNA Biodiversity of Multi-Trophic Aquaculture (Aquafort). $50,000 (2023-2026)  
 USGS NH Water Resources Research Center (State Water Resources Research Institute Program), PI. $30,000 (2023-2025)  
-
-*Pending*
-
-NHAES CREATE, Co-PI (with R. Moll). eDNA and LiDAR biodiversity atlas, Bartlett Experimental Forest. $50,000 (Submitted 2026)  
 
 ### FELLOWSHIPS AND HONORS:
 National Institute of Environmental Health Sciences Predoc Training Fellowship (2016-2018)  
